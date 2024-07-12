@@ -3,7 +3,8 @@ Comandos Importantes do Git
 git pull                    - Recebe atualizações do repositorio
 git push                    - Envia as atualizações para o repositorio
 git commit                  - Prepara para o push
-
+git remote -v               - verifica as origens do fetch e push
+gite remoterm origin        - retira a origem do servidor
 
 git mv                      - Movendo Arquivos
 git checkout                - CUIDADO(faz o reset no arquivo conforme tem na main)
@@ -17,3 +18,5 @@ git branch -d $nomeDaBranch - Deleta a branch (Não é comum)
 bit checkout $nomeDaBranch  - Muda de branch
 git merge $nomeDaBranch     - Junta duas branchs
 git tag -a $nome da tag -m  - Cria nova Tag 
+
+
