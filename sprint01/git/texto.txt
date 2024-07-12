@@ -1,6 +1,19 @@
 Comandos Importantes do Git
 
-git mv         - Movendo Arquivos
-git checkout   - CUIDADO(faz o reset no arquivo conforme tem na main)
-.gitignore     - Cria pasta com informações de caminhos a serem ignorados pelo git
-git reset      - Resetar mudanças feitas, todas alterações commitadas e também pendentes serão excluidas
+git pull                    - Recebe atualizações do repositorio
+git push                    - Envia as atualizações para o repositorio
+git commit                  - Prepara para o push
+
+
+git mv                      - Movendo Arquivos
+git checkout                - CUIDADO(faz o reset no arquivo conforme tem na main)
+.gitignore                  - Cria pasta com informações de caminhos a serem ignorados pelo git
+git reset                   - Resetar mudanças feitas, todas alterações commitadas e também pendentes serão excluidas
+git clone $urldogit         - Clona arquivos do repositorio
+
+git branch                  - Mostra todas as branchs disponiveis no projeto
+git branch $nomeDaBranch    - Cria nova branch 
+git branch -d $nomeDaBranch - Deleta a branch (Não é comum)
+bit checkout $nomeDaBranch  - Muda de branch
+git merge $nomeDaBranch     - Junta duas branchs
+git tag -a $nome da tag -m  - Cria nova Tag 
