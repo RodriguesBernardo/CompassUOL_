@@ -1,1 +1,6 @@
-Hello World
+Comandos Importantes do Git
+
+git mv         - Movendo Arquivos
+git checkout   - CUIDADO(faz o reset no arquivo conforme tem na main)
+.gitignore     - Cria pasta com informações de caminhos a serem ignorados pelo git
+git reset      - Resetar mudanças feitas, todas alterações commitadas e também pendentes serão excluidas
