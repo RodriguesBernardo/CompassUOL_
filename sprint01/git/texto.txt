@@ -18,5 +18,14 @@ git branch -d $nomeDaBranch - Deleta a branch (Não é comum)
 bit checkout $nomeDaBranch  - Muda de branch
 git merge $nomeDaBranch     - Junta duas branchs
 git tag -a $nome da tag -m  - Cria nova Tag 
+git diff                    - Verifica diferenças 
+git gc                      - Otimiza o repositorio
+git fsck                    - Verifica possiveis corrupção em arquivos (fazer uma vez por mês) 
+git archive --format zip --output $nomedoArquivo.zip master    -Transforma o repositorio em um arquivo zip
 
 
+        Boas mensagemns de commit
+    - Separar assunto do corpo da mensagem;
+    - Assunto com no máximo 50 caracteres;
+    - Assunto com letra inicial maiuscula;
+    - Explicar o porque e como do commit, e não como o código foi escrito;
