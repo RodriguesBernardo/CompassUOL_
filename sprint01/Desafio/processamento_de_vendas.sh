@@ -1,36 +1,45 @@
 #!/bin/bash
 
+# Cria o diretório vendas e copia o arquivo de vendas para lá
+mkdir -p ecommerce/vendas
+cp ecommerce/dados_de_vendas.csv ecommerce/vendas/
 
-mkdir -p vendas
-cp dados_de_vendas.csv vendas/
+# Cria o diretório de backup dentro de vendas
+mkdir -p ecommerce/vendas/backup
 
-mkdir -p vendas/backup
-
+# Pega a data atual no formato YYYYMMDD
 DATA=$(date +%Y%m%d)
 
-cp vendas/dados_de_vendas.csv vendas/backup/dados-${DATA}.csv
+# Copia o arquivo de vendas para o diretório de backup com a data no nome
+cp ecommerce/vendas/dados_de_vendas.csv ecommerce/vendas/backup/dados-${DATA}.csv
 
-mv vendas/backup/dados-${DATA}.csv vendas/backup/backup-dados-${DATA}.csv
+# Renomeia o arquivo no backup
+mv ecommerce/vendas/backup/dados-${DATA}.csv ecommerce/vendas/backup/backup-dados-${DATA}.csv
 
-RELATORIO=vendas/backup/Relatorio-${DATA}.txt
-
+# Cria o relatório
+# Data do sistema
 DATA_SISTEMA=$(date "+%Y/%m/%d %H:%M")
 
-DATA_PRIMEIRO=$(head -n 2 vendas/backup/backup-dados-${DATA}.csv | tail -n 1 | cut -d',' -f5)
-DATA_ULTIMO=$(tail -n 1 vendas/backup/backup-dados-${DATA}.csv | cut -d',' -f5)
+# Data do primeiro e último registro de venda
+DATA_PRIMEIRO=$(head -n 2 ecommerce/vendas/backup/backup-dados-${DATA}.csv | tail -n 1 | cut -d',' -f5)
+DATA_ULTIMO=$(tail -n 1 ecommerce/vendas/backup/backup-dados-${DATA}.csv | cut -d',' -f5)
 
-TOTAL_ITENS=$(awk -F',' 'NR>1 {sum += $3} END {print sum}' vendas/backup/backup-dados-${DATA}.csv)
+# Quantidade total de itens vendidos
+TOTAL_ITENS=$(awk -F',' 'NR>1 {sum += $3} END {print sum}' ecommerce/vendas/backup/backup-dados-${DATA}.csv)
 
-echo "Data do sistema: ${DATA_SISTEMA}" > $RELATORIO
-echo "Data do primeiro registro de venda: ${DATA_PRIMEIRO}" >> $RELATORIO
-echo "Data do último registro de venda: ${DATA_ULTIMO}" >> $RELATORIO
-echo "Quantidade total de itens vendidos: ${TOTAL_ITENS}" >> $RELATORIO
-echo "" >> $RELATORIO
-echo "Primeiras 10 linhas do arquivo:" >> $RELATORIO
-head -n 10 vendas/backup/backup-dados-${DATA}.csv >> $RELATORIO
+# Cria o arquivo relatorio.txt
+echo "Data do sistema: ${DATA_SISTEMA}" > ecommerce/vendas/backup/relatorio.txt
+echo "Data do primeiro registro de venda: ${DATA_PRIMEIRO}" >> ecommerce/vendas/backup/relatorio.txt
+echo "Data do último registro de venda: ${DATA_ULTIMO}" >> ecommerce/vendas/backup/relatorio.txt
+echo "Quantidade total de itens vendidos: ${TOTAL_ITENS}" >> ecommerce/vendas/backup/relatorio.txt
+echo "" >> ecommerce/vendas/backup/relatorio.txt
+echo "Primeiras 10 linhas do arquivo:" >> ecommerce/vendas/backup/relatorio.txt
+head -n 10 ecommerce/vendas/backup/backup-dados-${DATA}.csv >> ecommerce/vendas/backup/relatorio.txt
 
-zip vendas/backup/backup-dados-${DATA}.zip vendas/backup/backup-dados-${DATA}.csv
+# Comprime o arquivo de backup
+zip ecommerce/vendas/backup/backup-dados-${DATA}.zip ecommerce/vendas/backup/backup-dados-${DATA}.csv
 
-rm vendas/backup/backup-dados-${DATA}.csv
-rm vendas/dados_de_vendas.csv
+# Remove o arquivo de backup não compactado e o arquivo original de vendas
+rm ecommerce/vendas/backup/backup-dados-${DATA}.csv
+rm ecommerce/vendas/dados_de_vendas.csv
 

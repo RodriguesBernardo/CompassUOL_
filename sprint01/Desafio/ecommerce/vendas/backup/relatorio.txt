@@ -1,7 +1,7 @@
-Data do sistema: 2024/07/17 14:57
+Data do sistema: 2024/07/18 14:58
 Data do primeiro registro de venda: 01/01/2023
-Data do último registro de venda: 17/07/2024
-Quantidade total de itens vendidos: 485
+Data do último registro de venda: 18;07/07/2024
+Quantidade total de itens vendidos: 480
 
 Primeiras 10 linhas do arquivo:
 id,produto,quantidade,preço,data
