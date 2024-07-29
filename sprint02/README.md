@@ -8,7 +8,7 @@ Objetivos:
 
 ## Visualização dos Modelos
 
-- [@ModeloRelacional](https://drive.google.com/file/d/1myjX29IC-QCimW5RsRsC2sjd_qMNbDtX/view?usp=sharing)
+- [@ModeloRelacional_ModeloDimensional](https://drive.google.com/file/d/1myjX29IC-QCimW5RsRsC2sjd_qMNbDtX/view?usp=sharing)
 
 ## Autores
 - [@BernardoGostenskiRodrigues](https://github.com/bezudo)
