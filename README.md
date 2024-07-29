@@ -16,4 +16,5 @@ Javascript, HTML, CSS, TypeScript, MySQL, PHP, Pythom
 ## Sprints 
 
 1. [Sprint 1](sprint01/README.md)
+1. [Sprint 2](sprint02/README.md)
 
