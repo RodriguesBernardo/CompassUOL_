@@ -16,7 +16,7 @@ Esboço da normalização, e, posteriormente finalização da estrutura do banco
 ## Passo 3
 Criação das modelagens dimensionais e relacionais referentes ao banco normalizado
 <img src="./img/Modelo_Dimensional.png" alt="Modelo Dimensional">
-<img src="./img/Modelagem_Relacional.png.png" alt="Modelo Relacional">
+<img src="./img/Modelagem_Relacional.png" alt="Modelo Relacional">
 
 ## Passo 4
 Criação de views para facilitar a consulta de dados mais necessarios
