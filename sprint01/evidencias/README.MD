@@ -3,11 +3,7 @@
 
 Evidências e descrição referente ao desafio da sprint 01
 
-
-
-
 ## Passo 1
-
 
 Criação dos arquivos processamento_de_vendas.sh e consolidador_de_vendas.sh, juntamente com a pasta ecommerce.
 
