@@ -1,4 +1,4 @@
-# Exercicios Python
+# Exercicios Python.
 
 ## Exercicio 01
 
