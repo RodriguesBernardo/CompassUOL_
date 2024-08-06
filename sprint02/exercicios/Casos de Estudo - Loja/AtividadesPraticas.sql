@@ -22,8 +22,6 @@ group by vd.nmvdd, vd.perccomissao
 order by comissao desc
 limit 0, 1000;
 
-
-
 -- E11
 select cdcli,nmcli, sum(qtd * vrunt) as gasto from tbvendas
 where status = 'Concluído'
