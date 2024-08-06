@@ -1,5 +1,5 @@
 # Desafio Sprint 03
-Desafio da Sprint 02
+Desafio da Sprint 03
 
 
 ## Autores
