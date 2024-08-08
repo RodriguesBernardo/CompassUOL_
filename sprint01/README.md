@@ -12,5 +12,5 @@ Objetivos:
 
 ## Autores
 
-- [@BernardoGostenskiRodrigues](https://github.com/bezudo)
+- [@BernardoGostenskiRodrigues](https://github.com/RodriguesBernardo)
 

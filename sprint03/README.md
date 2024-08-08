@@ -3,10 +3,10 @@ Desafio da Sprint 03
 
 
 ## Autores
-- [@BernardoGostenskiRodrigues](https://github.com/bezudo)
+- [@BernardoGostenskiRodrigues](https://github.com/RodriguesBernardo)
 
 ## Evidencias
-3. [Evidencias](sprint03/evidencias/README.md)
+3. [Evidencias](evidencias/README.md)
 
 ## Exercicios
-3. [Exercicios](sprint03/exercicios/README.md)
+3. [Exercicios](exercicios/README.md)

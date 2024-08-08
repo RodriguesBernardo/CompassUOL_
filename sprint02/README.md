@@ -11,9 +11,9 @@ Objetivos:
 - [@ModeloRelacional_ModeloDimensional](https://drive.google.com/file/d/1myjX29IC-QCimW5RsRsC2sjd_qMNbDtX/view?usp=sharing)
 
 ## Evidencias
-3. [Evidencias](sprint02/evidencias/README.md)
+3. [Evidencias](evidencias/README.md)
 
 
 ## Autores
-- [@BernardoGostenskiRodrigues](https://github.com/bezudo)
+- [@BernardoGostenskiRodrigues](https://github.com/RodriguesBernardo)
 
