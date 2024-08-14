@@ -16,6 +16,8 @@
 
 ### **Etapa 3**
 * Criação do gráfico de pizza mostrando as categorias de apps existentes
+<img src="/sprint03/evidencias/img/Passo3.png" alt="Passo 3">
+
 
 ### **Etapa 4**
 * Mostrar qual o app mais caro existente no banco de dados

@@ -6,12 +6,12 @@
 
 🗺️ **Localização:** Bento Gonçalves, Rio Grande do Sul, Brasil  
 🏫 **Ensino:** Instituto Federal do Rio Grande do Sul  
-📚 **Curso:** Análise e Desenvolvimento de Sistemas
+📚 **Curso:** Técnologo em Análise e Desenvolvimento de Sistemas
 
 ## 🛠 Habilidades Técnicas
-- 💡 **PHP:** Orientação a objetos e desenvolvimento de aplicações web com Laravel
-- 💡 **TypeScript & JavaScript:** Práticas de Orientação a Objeto e manipulações de Arrays
-- 💡 **MySQL:** Conhecimento sólido em gerenciamento de bancos de dados
+- 💡 **PHP:** Orientação a Objetos e Desenvolvimento de Aplicações Web com Laravel.
+- 💡 **TypeScript & JavaScript:** Práticas de Orientação a Objeto e Manipulações de Arrays.
+- 💡 **MySQL:** Conhecimento sólido em gerenciamento de bancos de dados.
 - 💡 **Python:** Criação de Scripts, automações, etc.
 - 💡 **HTML & CSS:** Competente na criação de layouts responsivos e esteticamente agradáveis.
 
@@ -21,9 +21,9 @@
 - **Colaboração e Crescimento:** Motivado a trabalhar em equipe e contribuir para projetos desafiadores.
 
 ## 💼 Experiência Profissional
-- **Estágio Atual:** Programa de Bolsas CompassUOL Data & Analytics
-- **Estágio Anterior:** Técnico em Montagem e Manutenção de Computadores na Embrapa Uva e Vinho
-- **Emprego Anterior:** Técnico em Montagem e Manutenção de Computadores na IdealTech Soluções em Informática
+- **Estágio Atual:** Programa de Bolsas CompassUOL Data & Analytics.
+- **Estágio Anterior:** Técnico em Montagem e Manutenção de Computadores na Embrapa Uva e Vinho.
+- **Emprego Anterior:** Técnico em Montagem e Manutenção de Computadores na IdealTech Soluções em Informática.
 
 ## 🔗 Links
 [![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/benardo-gostenski-rodrigues-1a3948258/)
