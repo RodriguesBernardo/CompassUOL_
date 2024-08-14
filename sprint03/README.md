@@ -1,13 +1,11 @@
-## Exercicios
+**## Exercicios**
 - Assim como foi requisitado, segue em anexo os exercicios da sprint 03, assim como o exercicio com foco em fundamentos ETL com python: 
 [Exercicios](exercicios/Readme.md)
 
-## Evidências
+**## Evidências**
 
-## Autores
+**## Autores**
 - [@BernardoGostenskiRodrigues](https://github.com/RodriguesBernardo)
 
 
 
-## Exercicios
-3. [Exercicios](exercicios/Readme.md)
