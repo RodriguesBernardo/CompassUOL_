@@ -23,6 +23,7 @@
 ## 💼 Experiência Profissional
 - **Estágio Atual:** Programa de Bolsas CompassUOL Data & Analytics
 - **Estágio Anterior:** Técnico em Montagem e Manutenção de Computadores na Embrapa Uva e Vinho
+- **Emprego Anterior:** Técnico em Montagem e Manutenção de Computadores na IdealTech Soluções em Informática
 
 ## 🔗 Links
 [![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/benardo-gostenski-rodrigues-1a3948258/)
