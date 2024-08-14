@@ -16,4 +16,4 @@
 Preços dos Aplicativos ao Longo do tempo">
 
 ### **Número Total de Instalações por Categoria de Aplicativo**
-<img src="./img/PrecosAoLongoDoTempo.png" alt="Representação do gráfico do Número Total de Instalações por Categoria de Aplicativo">
+<img src="./img/InstalaçõesPorCategorias.png" alt="Representação do gráfico do Número Total de Instalações por Categoria de Aplicativo">
