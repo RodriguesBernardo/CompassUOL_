@@ -10,7 +10,8 @@ def escrever_arquivo(caminho_arquivo, conteudo):
         arquivo.write(conteudo)
 
 def linha_para_lista(linha):
-    return re.split(r',\s*', linha.strip())
+    # Usando regex para tratar corretamente nomes com vírgulas dentro de aspas
+    return re.split(r',(?=(?:[^"]*"[^"]*")*[^"]*$)', linha.strip())
 
 def etapa_1(linhas):
     maior_numero_filmes = 0
@@ -32,15 +33,16 @@ def etapa_1(linhas):
     escrever_arquivo('etapa-1.txt', resultado)
     print("Etapa 1 concluída.")
 
-
 def etapa_2(linhas):
     somatorio_gross = 0
     total_filmes = 0
     
     for linha in linhas[1:]: 
         dados = linha_para_lista(linha)
+        if len(dados) < 6:
+            continue
         try:
-            gross = float(dados[4])
+            gross = float(dados[5])  # Corrigido para usar a coluna Gross corretamente
         except ValueError:
             continue
         somatorio_gross += gross
@@ -74,12 +76,13 @@ def etapa_3(linhas):
     escrever_arquivo('etapa-3.txt', resultado)
     print("Etapa 3 concluída.")
 
-
 def etapa_4(linhas):
     filmes_count = {}
     
     for linha in linhas[1:]:
         dados = linha_para_lista(linha)
+        if len(dados) < 6:
+            continue
         filme = dados[5]
         
         if filme in filmes_count:
@@ -93,12 +96,13 @@ def etapa_4(linhas):
     escrever_arquivo('etapa-4.txt', resultado)
     print("Etapa 4 concluída.")
 
-
 def etapa_5(linhas):
     atores_total_gross = {}
     
     for linha in linhas[1:]: 
         dados = linha_para_lista(linha)
+        if len(dados) < 2:
+            continue
         ator = dados[0]
         try:
             total_gross = float(dados[1])
@@ -109,10 +113,9 @@ def etapa_5(linhas):
     
     atores_ordenados = sorted(atores_total_gross.items(), key=lambda item: -item[1])
     
-    resultado = "\n".join([f"{ator} - {total_gross}" for ator, total_gross in atores_ordenados]) + "\n"
+    resultado = "\n".join([f"{ator} - {total_gross:.2f}" for ator, total_gross in atores_ordenados]) + "\n"
     escrever_arquivo('etapa-5.txt', resultado)
     print("Etapa 5 concluída.")
-
 
 caminho_arquivo = 'C:/Users/bezudow/Desktop/CompassUOL/CompassUOL_/sprint03/exercicios/Exercicio - ETL com Python/actors.csv'
 linhas = ler_arquivo(caminho_arquivo)
