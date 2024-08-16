@@ -10,7 +10,7 @@ def escrever_arquivo(caminho_arquivo, conteudo):
         arquivo.write(conteudo)
 
 def linha_para_lista(linha):
-    # Usando regex para tratar corretamente nomes com vírgulas dentro de aspas
+    
     return re.split(r',(?=(?:[^"]*"[^"]*")*[^"]*$)', linha.strip())
 
 def etapa_1(linhas):
@@ -42,7 +42,7 @@ def etapa_2(linhas):
         if len(dados) < 6:
             continue
         try:
-            gross = float(dados[5])  # Corrigido para usar a coluna Gross corretamente
+            gross = float(dados[5])  
         except ValueError:
             continue
         somatorio_gross += gross
