@@ -36,7 +36,6 @@ docker run --name carguru-container carguru-image
 - Sim! É possível reutilizar containers que foram parados. Para isso utilizamos o comando abaixo: 
 ```
 docker start "nome-container"
-
 ```
 No nosso caso: 
 ```
