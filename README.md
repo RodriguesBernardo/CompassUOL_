@@ -1,5 +1,5 @@
 # Bernardo Gostenski Rodrigues
-<img src="../fotoPerfil.jpg" alt="Bernardo Gostenski Rodrigues">
+<img src="./sprint01/evidencias/img/fotoPerfilParaREADME.jpg" alt="Bernardo Gostenski Rodrigues">
 
 ## 🚀 Sobre mim
 👨‍🎓 Me chamo Bernardo Gostenski Rodrigues
