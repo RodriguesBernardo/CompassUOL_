@@ -1,11 +1,15 @@
-with open("numeros.txt", "r") as file:
-    numeros = list(map(int, file.readlines()))
+numeros = ["8000", "7998", "7996", "7994", "7994", "123", "456", "789", "1011", "2024", "3036", "4048", "5050"]
 
-pares = list(filter(lambda x: x % 2 == 0, numeros))
+numeros_inteiros = list(map(int, numeros))
 
-maiores_pares = sorted(pares, reverse=True)[:5]
+pares = filter(lambda x: x % 2 == 0, numeros_inteiros)
 
-soma_maiores_pares = sum(maiores_pares)
+pares_ordenados = sorted(pares, reverse=True)
 
-print(maiores_pares)
-print(soma_maiores_pares)
+cinco_maiores_pares = pares_ordenados[:5]
+
+soma_cinco_maiores = sum(cinco_maiores_pares)
+
+print(cinco_maiores_pares)
+
+print(soma_cinco_maiores)
