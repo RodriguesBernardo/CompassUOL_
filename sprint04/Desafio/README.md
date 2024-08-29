@@ -80,7 +80,7 @@ CMD [ "python", "stringHash.py" ]
 ### **Passo 3**
 - Executamos no terminal para a criação do container: 
 ```
-docker build -t mascarar-dados
+docker build -t mascarar-dados .
 ```
 - Em seguida iniciamos o container e fornecemos um imput para gerar o hash
 ```
