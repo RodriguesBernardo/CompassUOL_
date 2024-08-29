@@ -4,6 +4,7 @@
 2. Atividade:
 * Construa uma imagem a partir de um arquivo de instruções Dockerfile que execute o código carguru.py, após execute um container a partir da imagem criada
 * É possivel reutilizar containers? Em caso positivo, apresente o comando necessaio para reiniciar um dos containers parados em seu ambiente Docker. Não sendo possível reutulizar, justifique
+* Criar uma imagem Docker chamada mascarar-dados que execute o scrip Python criado anteriormente,
 
 ## **Etapa 01**
 
