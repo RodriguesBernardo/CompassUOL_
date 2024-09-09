@@ -4,7 +4,6 @@
 - [Desafio](Desafio/README.md)
 
 ## **Exercicios**
-- 
 - [Exercicios](exercicios/Readme.md)
 
 ## **Evidências**
