@@ -6,6 +6,7 @@
 
 # **Usando S3Select**
 
+- Gostaria antes de iniciar a documentação da resolução do desafio colocar como referencia [Informacoes-S3Select](https://github.com/YanAndreatta/thank-God-S3-Select), criada pelo colega Yan Eduardo Andretta de Lima
 
 ## **Passo 1**
 - Criação do bucket no S3 
