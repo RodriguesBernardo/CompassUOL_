@@ -3,11 +3,11 @@ import boto3
 session = boto3.Session(profile_name='982081093508_AdministratorAccess')
 s3_client = session.client('s3', region_name='us-east-1')  
 
-bucket_name = 'desafio-sprint05'
-file_key = 'dadosabertos_pos-graduacao_programas.csv'
+nome_bucket = 'desafio-sprint05'
+nome_arquivoCsv = 'dadosabertos_pos-graduacao_programas.csv'
 
 sql_query = """
-SELECT * FROM s3object WHERE ano = '2014' AND NivelCursoPG = 'Doutorado'
+SELECT NomePPG, UPPER(NomePPG) AS NomeAbreviado, CAST(NrMatriculados AS INT) AS TotalMatriculados, CASE WHEN CAST(NrMatriculados AS INT) > 100 THEN 'Alto' ELSE 'Baixo' END AS MatriculadosClassificacao FROM S3Object WHERE Ano = '2014' AND NivelCursoPG = 'Doutorado';
 """
 
 def run_s3_select(bucket, key, query):
@@ -37,4 +37,4 @@ def run_s3_select(bucket, key, query):
     except Exception as e:
         print(f"Erro inesperado: {e}")
 
-run_s3_select(bucket_name, file_key, sql_query)
+run_s3_select(nome_bucket, nome_arquivoCsv, sql_query)
