@@ -27,3 +27,8 @@ SELECT NomePPG, CASE WHEN CAST(NrMatriculados AS INTEGER) > 100 THEN 'Alto' ELSE
 SELECT NomePPG, UPPER(siglaPPG) AS NomeAbreviado, CAST(NrMatriculados AS INT) AS TotalMatriculados, CASE WHEN CAST(NrMatriculados AS INT) > 100 THEN 'Alto' ELSE 'Baixo' END AS MatriculadosClassificacao FROM S3Object WHERE Ano = '2014' AND NivelCursoPG = 'Doutorado';
 ```
 <img src="/sprint05/evidencias/img/consultaGeral.png">
+
+## Evidencias do funcionamento do script com biblioteca BOTO3
+- Após executar o script:
+<img src="/sprint05/evidencias/img/ExecucaoBOTO3.png">
+
