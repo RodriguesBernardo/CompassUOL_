@@ -7,7 +7,7 @@ nome_bucket = 'desafio-sprint05'
 nome_arquivoCsv = 'dadosabertos_pos-graduacao_programas.csv'
 
 sql_query = """
-SELECT NomePPG, UPPER(NomePPG) AS NomeAbreviado, CAST(NrMatriculados AS INT) AS TotalMatriculados, CASE WHEN CAST(NrMatriculados AS INT) > 100 THEN 'Alto' ELSE 'Baixo' END AS MatriculadosClassificacao FROM S3Object WHERE Ano = '2014' AND NivelCursoPG = 'Doutorado';
+SELECT NomePPG, UPPER(siglaPPG) AS NomeAbreviado, CAST(NrMatriculados AS INT) AS TotalMatriculados, CASE WHEN CAST(NrMatriculados AS INT) > 100 THEN 'Alto' ELSE 'Baixo' END AS MatriculadosClassificacao FROM S3Object WHERE Ano = '2014' AND NivelCursoPG = 'Doutorado';
 """
 
 def run_s3_select(bucket, key, query):
