@@ -1,0 +1,2 @@
+sprint06/Desafio/Resolucao/series.csv filter=lfs diff=lfs merge=lfs -text
+sprint06/Desafio/Resolucao/movies.csv filter=lfs diff=lfs merge=lfs -text

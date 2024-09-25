@@ -1,14 +1,18 @@
-# **Sprint 05**
+# **Sprint 06**
 
-## **Desafio**
+# **Desafio**
 1. Objetivo: 
-* Praticar uso de AWS S3 Select, fazendo consultas usando o S3Select ou Desenvolver um código Python usando Boto3
-2. Atividade:
-* Escolher um arquivo CSV único na turma, no portal de dados públicos do Governo Brasileiro: http://dados.gov.br para realizar as consultas
+* Praticar a combinação de conhecimentos vistos no Programa, fazer um mix de tudo que já foi dito.
+2. Atividade: 
+* O desafio envolve a construção de um Data Lake que realiza a ingestão, processamento e consumo de dados sobre filmes e séries.
+
 - [Desafio](Desafio/README.md)
 
 ## **Exercicios**
-1. Nenhum Exercicio solicitado na Sprint 05!
+1. Foram solictados exercicios na AWS
+    - AWS S3
+    - AWS ATHENA
+    - AWS LAMBDA
 - [Exercicios](exercicios/Readme.md)
 
 ## **Evidências**

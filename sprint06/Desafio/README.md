@@ -1,127 +1,69 @@
 # **Desafio**
 1. Objetivo: 
-* Praticar uso de AWS S3 Select, fazendo consultas usando o S3Select ou Desenvolver um código Python usando Boto3
-2. Atividade:
-* Escolher um arquivo CSV único na turma, no portal de dados públicos do Governo Brasileiro: http://dados.gov.br para realizar as consultas
+* Praticar a combinação de conhecimentos vistos no Programa, fazer um mix de tudo que já foi dito.
+2. Atividade: 
+* O desafio envolve a construção de um Data Lake que realiza a ingestão, processamento e consumo de dados sobre filmes e séries.
 
-# **Usando S3Select**
+## Perguntas a serem respondidas
+1. **Qual a relação entre a duração dos filmes e suas avaliações no TMDB e no IMDB?**
+- Essa pergunta verifica a possibilidade de alguam relação entre a duração de um filme e sua avaliação nas plataformas.
 
-- Gostaria antes de iniciar a documentação da resolução do desafio colocar como referencia [Informacoes-S3Select](https://github.com/YanAndreatta/thank-God-S3-Select), criada pelo colega Yan Eduardo Andretta de Lima
+2. **Quais diretores têm o maior número de filmes bem avaliados e quais gêneroes eles costumam dirigir ?**
+ - Essa pergunta busca encontrar diretores que tenham maior número de filmes bem avaliados e analisar se eles tendem a dirigir determinados gêneros.
 
-## **Passo 1**
-- Criação do bucket no S3 
-<img src="/sprint05/evidencias/img/Criação do Bucket.png">
+3. **Os filmes lançados em períodos como Natal, Ano Novo, e outras datas comemorativas têm avaliações melhores ou piores que os lançados em outras épocas ?**
+- Fazmos a analise se filmes lançados em períodos festivos apresentam avaliações significativamente diferentes. 
 
-## **Passo 2**
-- Configuração do bucket e realizar upload do arquivo .csv
-<img src="/sprint05/evidencias/img/Arquivo Data carregado no bucket.png">
+4. **Quais são os gêneros de filmes mais comuns entre os filmes com maiores bilheterias?**
+- Examinamos quais gêneros são mais populares entre os filmes que tiveram maior receita de bilheteria. 
 
-## **Passo 3**
-- Realizar consultas usando o S3Select
-<img src="/sprint05/evidencias/img/Executar consultas com o S3 Select.png">
+5. **Qual a média de orçamento dos filmes, por década, e como isso evoluiu ao longo do tempo ?**
+- Podemos estudar a evolução dos orçamentos dos filmes e podemos analisar o impacto da industria do entreternimento conforme o passar dos anos.
 
-### Cláusula que filtra dados usando ao menos dois operadores lógicos
-- Consulta que filtra no ano de 2014 os cursos com doutorado
-``` 
-SELECT * FROM s3object where ano = '2014' and NivelCursoPG = 'Doutorado'; 
-```
-<img src="/sprint05/evidencias/img/Cursos em 2014 com nivel Doutorado.png">
+ **Entrega 01**
 
-### Duas funções de Agregação
-- Consulta que filtra os totais de alunos matriculados em um ano especifico.
-``` 
-SELECT SUM(CAST(NrMatriculados AS INTEGER)) AS TotalMatriculados FROM S3Object WHERE Ano = '2018';
-```
-<img src="/sprint05/evidencias/img/Alunos matriculados .png">
+## Passo 1
+1. Preparação do Ambiente AWS:
+    - Reutilizamos ou Criamos um bucket para a realização do Desafio
+    <img src="../evidencias/img/BucketUsado.png">
+    - Atualizamos as credenciais da AWS, no meu caso, atualizamos na pasta .aws/credentials
+    <img src="../evidencias/img/credentials.png">
 
-### Uma função condicional
-- Consulta agrupa entre Alto e Baixo conforme número de alunos matriculados, caso tenha mais de 100 temos respota "Alto", menores que 100 temos resposta "Baixo"
-```
-SELECT NomePPG, CASE WHEN CAST(NrMatriculados AS INTEGER) > 100 THEN 'Alto' ELSE 'Baixo' END AS MatriculadosClassificacao FROM S3Object;
-```
-<img src="/sprint05/evidencias/img/Nivel de alunos matriculados.png">
+## Passo 02
+1. Importamos as bibliotecas necessarias para realizar o desafio
+    <img src="../evidencias/img/Bibliotecas.png">
 
-### Consulta adicional juntando as informações
-```
-SELECT NomePPG, UPPER(siglaPPG) AS NomeAbreviado, CAST(NrMatriculados AS INT) AS TotalMatriculados, CASE WHEN CAST(NrMatriculados AS INT) > 100 THEN 'Alto' ELSE 'Baixo' END AS MatriculadosClassificacao FROM S3Object WHERE Ano = '2014' AND NivelCursoPG = 'Doutorado';
-```
-<img src="/sprint05/evidencias/img/consultaGeral.png">
+2. Criamos a sessão com o perfil selecionado e criamos as variaives necessárias para o código
+    <img src="../evidencias/img/CriacaoSessaoVariaveis.png">
 
+3. Criamos as funções pegarData e uploadoS3, para pegar a data atual do sistema e para fazer upload do arquivo solicitado para o bucket, respectivamente
+    <img src="../evidencias/img/pegaData_UploadS3.png">
 
-# **Usando Boto3**
+4. Criamos a função que fará a analise dos arquivos e chamara a função uploadS3, caso ocorrá algum erro será informado
+    <img src="../evidencias/img/processarArquivos.png">
 
-## **Passo 1**
-- Instalação da biblioteca Boto3
-```
-pip install boto3
-```
-## **Passo 2**
-- Definir as credenciais na pasta .aws/credentias
-<img src="/sprint05/evidencias/img/credentials.png">
+5. Por fim, executamos a função principal *processarArquivos()*
+    <img src="../evidencias/img/final.png">
 
-## **Passo 3**
-- Criação do script em python
+## Passo 03
+1. Criamos um arquivo *Dockerfile*, e o arquivo *requirements* informando quais bilbiotecas vamos utilizar 
+   - DockerFile
+    <img src="../evidencias/img/Dockerfile.png">
+   - requirements
+    <img src="../evidencias/img/requirements.png">
 
-1. Importar boto3(biblioteca que permite interagir com os serviços da AWS), e criamos uma sessão com AWS Com o perfil chamado(profile_name se refere as credencias armazenadas localmente na maquina)
+## Passo 04
+1. Criamos o container com o comando: 
 ```
-import boto3
-session = boto3.Session(profile_name='982081093508_AdministratorAccess')
+docker build -t upload-s3 .
 ```
-2. A sessão AWS cria um cliente S3 e defimos a região usada
+2. Executamos o container, indicando também o caminho da pasta .aws
 ```
-s3_client = session.client('s3', region_name='us-east-1')  
-```
-3. Definimos as variaveis que vao armazenar os nomes do bucket e do arquivo .csv
-```
-nome_bucket = 'desafio-sprint05'
-nome_arquivoCsv = 'dadosabertos_pos-graduacao_programas.csv'
-```
-4. Realizamos a consulta no S3Select
-```
-sql_query = """
-SELECT NomePPG, UPPER(NomePPG) AS NomeAbreviado, CAST(NrMatriculados AS INT) AS TotalMatriculados, CASE WHEN CAST(NrMatriculados AS INT) > 100 THEN 'Alto' ELSE 'Baixo' END AS MatriculadosClassificacao FROM S3Object WHERE Ano = '2014' AND NivelCursoPG = 'Doutorado';
-"""
-```
-5. Criamos uma função para executar o S3Select
-```
-def run_s3_select(bucket, key, query):
-    try:
-        response = s3_client.select_object_content(
-            Bucket=bucket,
-            Key=key,
-            ExpressionType='SQL',
-            Expression=query,
-            InputSerialization={
-                'CSV': {
-                    'FileHeaderInfo': 'USE',
-                    'FieldDelimiter': ';' 
-                }
-            },
-            OutputSerialization={'CSV': {}}
-        )
-```
-6. Realizamos a leitura da resposta do select e executamos a função!        
-```
-        for event in response['Payload']:
-            if 'Records' in event:
-                print(event['Records']['Payload'].decode('utf-8'))
-            if 'Progress' in event:
-                print("Progress:", event['Progress'])
-            if 'Stats' in event:
-                print("Stats:", event['Stats'])
-    
-    except Exception as e:
-        print(f"Erro inesperado: {e}")
-
-run_s3_select(nome_bucket, nome_arquivoCsv, sql_query)
-
+docker run -v ${PWD}:/app -v C:\Users\bezudow\.aws:/root/.aws upload-s3   
 ```
 
-
-
-
-
-
+### Para mais detalhes do código comentado
+- 5. [Script main.py](sprint06/Desafio/main.py)
 
 
 
