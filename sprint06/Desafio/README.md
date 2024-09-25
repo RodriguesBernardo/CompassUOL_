@@ -23,6 +23,7 @@
  **Entrega 01**
 
 ## Passo 1
+**Foi adicionado ao gitignore os arquivos .csv, pois estava dando conflito para enviar ao repositorio por ser muito grande
 1. Preparação do Ambiente AWS:
     - Reutilizamos ou Criamos um bucket para a realização do Desafio
     <img src="../evidencias/img/BucketUsado.png">
