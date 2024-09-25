@@ -32,26 +32,26 @@
 
 ## Passo 02
 1. Importamos as bibliotecas necessarias para realizar o desafio
-    <img src="../evidencias/img/Bibliotecas.png">
+<img src="../evidencias/img/Bibliotecas.png">
 
 2. Criamos a sessão com o perfil selecionado e criamos as variaives necessárias para o código
-    <img src="../evidencias/img/CriacaoSessaoVariaveis.png">
+<img src="../evidencias/img/CriacaoSessaoVariaveis.png">
 
 3. Criamos as funções pegarData e uploadoS3, para pegar a data atual do sistema e para fazer upload do arquivo solicitado para o bucket, respectivamente
-    <img src="../evidencias/img/pegaData_UploadS3.png">
+<img src="../evidencias/img/pegaData_UploadS3.png">
 
 4. Criamos a função que fará a analise dos arquivos e chamara a função uploadS3, caso ocorrá algum erro será informado
-    <img src="../evidencias/img/processarArquivos.png">
+<img src="../evidencias/img/processarArquivos.png">
 
 5. Por fim, executamos a função principal *processarArquivos()*
-    <img src="../evidencias/img/final.png">
+<img src="../evidencias/img/final.png">
 
 ## Passo 03
 1. Criamos um arquivo *Dockerfile*, e o arquivo *requirements* informando quais bilbiotecas vamos utilizar 
-   - DockerFile
-    <img src="../evidencias/img/Dockerfile.png">
-   - requirements
-    <img src="../evidencias/img/requirements.png">
+- DockerFile
+<img src="../evidencias/img/Dockerfile.png">
+- requirements
+<img src="../evidencias/img/requirements.png">
 
 ## Passo 04
 1. Criamos o container com o comando: 
