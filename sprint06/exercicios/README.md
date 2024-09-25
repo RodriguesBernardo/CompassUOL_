@@ -3,7 +3,28 @@
 <img src="../evidencias/img/Atividade-AWS_S3.png">
 
 ## Exercicio Lab AWS Athena
-- Após a conclusão do passo a passo é solictado a criação de uma consulta que liste os 3 nomes mais usados em cada década desde o 1950 até hoje.
+- Após a conclusão do passo a passo é solictado a criação de uma consulta que liste os 3 nomes mais usados em cada década desde o 1950 até hoje, e também o número de aparições.
+- Consulta SQL:
+```
+SELECT nome, decada, total
+FROM (
+    SELECT 
+        nome, 
+        FLOOR(ano / 10) * 10 AS decada, 
+        SUM(total) AS total,
+        ROW_NUMBER() OVER (PARTITION BY FLOOR(ano / 10) * 10 ORDER BY SUM(total) DESC) AS quantidade_aparicoes
+    FROM meubanco.names
+    WHERE ano >= 1950
+    GROUP BY nome, FLOOR(ano / 10) * 10
+) AS ranked
+WHERE quantidade_aparicoes <= 3
+ORDER BY decada, total DESC;
+```
+1. Usamos a função *floor* para achar a decada do ano selecionado, ou seja:
+```
+FLOOR(ano / 10) * 10 AS decada, 
+```
+Se o ano for 1954, será feito o calculo (1954 / 10) = 195.4, aplicando o floor resultamos em 195, e ao multiplicar por 10, o resultado é 1950, dessa maneira representando a década 
 <img src="../evidencias/img/Resultado_query_AWS-ATHENA.png">
 <img src="../evidencias/img/Resultado_query_AWS-ATHENA-Parte02.png">
 

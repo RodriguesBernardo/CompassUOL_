@@ -18,5 +18,3 @@ def lambda_handler(event, context):
     }
     
     
-    
-"""     s3://sprint-06/minha-camada-pandas.zip """
