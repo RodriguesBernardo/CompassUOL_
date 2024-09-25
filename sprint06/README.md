@@ -13,7 +13,7 @@
     - AWS S3
     - AWS ATHENA
     - AWS LAMBDA
-- [Exercicios](exercicios/Readme.md)
+- [Exercicios](exercicios/README)
 
 ## **Evidências**
 - Evidencias das resoluções do Desafio!

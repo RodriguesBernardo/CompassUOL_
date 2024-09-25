@@ -5,19 +5,19 @@
 * O desafio envolve a construção de um Data Lake que realiza a ingestão, processamento e consumo de dados sobre filmes e séries.
 
 ## Perguntas a serem respondidas
-1. **Qual a relação entre a duração dos filmes e suas avaliações no TMDB e no IMDB?**
+### 1. **Qual a relação entre a duração dos filmes e suas avaliações no TMDB e no IMDB?**
 - Essa pergunta verifica a possibilidade de alguam relação entre a duração de um filme e sua avaliação nas plataformas.
 
-2. **Quais diretores têm o maior número de filmes bem avaliados e quais gêneroes eles costumam dirigir ?**
+### 2. **Quais diretores têm o maior número de filmes bem avaliados e quais gêneroes eles costumam dirigir ?**
  - Essa pergunta busca encontrar diretores que tenham maior número de filmes bem avaliados e analisar se eles tendem a dirigir determinados gêneros.
 
-3. **Os filmes lançados em períodos como Natal, Ano Novo, e outras datas comemorativas têm avaliações melhores ou piores que os lançados em outras épocas ?**
+### 3. **Os filmes lançados em períodos como Natal, Ano Novo, e outras datas comemorativas têm avaliações melhores ou piores que os lançados em outras épocas ?**
 - Fazemos a analise se filmes lançados em períodos festivos apresentam avaliações significativamente diferentes. 
 
-4. **Quais são os gêneros de filmes mais comuns entre os filmes com maiores bilheterias?**
+### 4. **Quais são os gêneros de filmes mais comuns entre os filmes com maiores bilheterias?**
 - Examinamos quais gêneros são mais populares entre os filmes que tiveram maior receita de bilheteria. 
 
-5. **Qual a média de orçamento dos filmes, por década, e como isso evoluiu ao longo do tempo ?**
+### 5. **Qual a média de orçamento dos filmes, por década, e como isso evoluiu ao longo do tempo ?**
 - Podemos estudar a evolução dos orçamentos dos filmes e podemos analisar o impacto da industria do entreternimento conforme o passar dos anos.
 
  **Entrega 01**
