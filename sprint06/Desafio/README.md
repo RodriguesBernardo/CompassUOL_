@@ -12,7 +12,7 @@
  - Essa pergunta busca encontrar diretores que tenham maior número de filmes bem avaliados e analisar se eles tendem a dirigir determinados gêneros.
 
 3. **Os filmes lançados em períodos como Natal, Ano Novo, e outras datas comemorativas têm avaliações melhores ou piores que os lançados em outras épocas ?**
-- Fazmos a analise se filmes lançados em períodos festivos apresentam avaliações significativamente diferentes. 
+- Fazemos a analise se filmes lançados em períodos festivos apresentam avaliações significativamente diferentes. 
 
 4. **Quais são os gêneros de filmes mais comuns entre os filmes com maiores bilheterias?**
 - Examinamos quais gêneros são mais populares entre os filmes que tiveram maior receita de bilheteria. 
@@ -64,7 +64,7 @@ docker run -v ${PWD}:/app -v C:\Users\bezudow\.aws:/root/.aws upload-s3
 ```
 
 ### Para mais detalhes do código comentado
-- 5.[Script main.py](sprint06/Desafio/Resolucao/main.py)
+[Script main.py](../Desafio/Resolucao/main.py)
 
 
 
