@@ -31,7 +31,8 @@ FLOOR(ano / 10) * 10 AS decada,
 <img src="../evidencias/img/Resultado_query_AWS-ATHENA-Parte02.png">
 
 ## Exercicio Lab AWS Lambda
-- É solicitado no passo a passo da atividade a criação do runtime da function como *Python 3.7*, porém nos dias atuais o Amazon Linux não oferece mais suporte para tal, portanto, usei o *Python 3.11* como runtime da function. 
+- É solicitado no passo a passo da atividade a criação do runtime da function como *Python 3.7*, porém nos dias atuais o Amazon Linux não oferece mais suporte para tal, portanto, usei o *Python 3.11* como runtime da function.
+- Foi necessario também adicionar a instalação da biblioteca numpy para o funcionamento correto
 Vale lembrar também que para usar a nova versão foi necessario trocar a versão base do Amazon Linux de *amazonlinux:2.0.20200602.0* para *FROM amazonlinux:2023*
 - Segue alterações feitas no código base oferecido no passo a passo para: 
 ```
