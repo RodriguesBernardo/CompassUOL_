@@ -64,7 +64,7 @@ docker run -v ${PWD}:/app -v C:\Users\bezudow\.aws:/root/.aws upload-s3
 ```
 
 ### Para mais detalhes do código comentado
-- 5. [Script main.py](sprint06/Desafio/main.py)
+- 5.[Script main.py](sprint06/Desafio/Resolucao/main.py)
 
 
 
