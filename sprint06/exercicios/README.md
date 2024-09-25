@@ -24,8 +24,9 @@ ORDER BY decada, total DESC;
 ```
 FLOOR(ano / 10) * 10 AS decada, 
 ```
-Se o ano for 1954, será feito o calculo (1954 / 10) = 195.4, aplicando o floor resultamos em 195, e ao multiplicar por 10, o resultado é 1950, dessa maneira representando a década. 
+2. Se o ano for 1954, será feito o calculo (1954 / 10) = 195.4, aplicando o floor resultamos em 195, e ao multiplicar por 10, o resultado é 1950, dessa maneira representando a década. 
 
+- Resultados da consulta
 <img src="../evidencias/img/Resultado_query_AWS-ATHENA.png">
 <img src="../evidencias/img/Resultado_query_AWS-ATHENA-Parte02.png">
 
