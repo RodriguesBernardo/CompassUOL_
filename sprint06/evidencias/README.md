@@ -15,3 +15,13 @@
 - Dentro dessa pasta podemos localizar os arquivos brutos 
 <img src="../evidencias/img/EvidenciaMovies.csv.png">
 <img src="../evidencias/img/EvidenciaSeries.csv.png">
+
+
+- Para finalizar, segue evidencias da limpeza dos arquivos como solicitado
+1.Limpeza Athena
+<img src="../evidencias/img/Limpeza_Athena.png">
+2. Limpeza S3 Bucket
+<img src="../evidencias/img/Limpeza_Bucket.png">
+3. Limpeza Lambda
+<img src="../evidencias/img/Limpeza_Lambda.png">
+
