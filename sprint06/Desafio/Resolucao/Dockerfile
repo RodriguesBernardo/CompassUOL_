@@ -1,4 +1,4 @@
-# Use uma imagem Python oficial
+# Use uma imagem Python 
 FROM python:3.9-slim
 
 # Defina o diretório de trabalho
