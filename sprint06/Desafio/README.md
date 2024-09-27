@@ -50,6 +50,7 @@
 1. Criamos um arquivo *Dockerfile*, e o arquivo *requirements* informando quais bilbiotecas vamos utilizar 
 - DockerFile
 <img src="../evidencias/img/Dockerfile.png">
+
 - requirements
 <img src="../evidencias/img/requirements.png">
 
