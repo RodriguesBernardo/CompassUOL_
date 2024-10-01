@@ -8,8 +8,8 @@
 ### 1. **Qual a relação entre a duração dos filmes e suas avaliações no TMDB e no IMDB?**
 - Essa pergunta verifica a possibilidade de alguam relação entre a duração de um filme e sua avaliação nas plataformas.
 
-### 2. **Quais diretores têm o maior número de filmes bem avaliados e quais gêneroes eles costumam dirigir ?**
- - Essa pergunta busca encontrar diretores que tenham maior número de filmes bem avaliados e analisar se eles tendem a dirigir determinados gêneros.
+### 2. **Quais diretores têm o maior número de filmes dentro de um genero especifico ?**
+ - Essa pergunta busca encontrar diretores que tenham maior número de filmes bem avaliados dentro de um gênero especifico.
 
 ### 3. **Os filmes lançados em períodos como Natal, Ano Novo, e outras datas comemorativas têm avaliações melhores ou piores que os lançados em outras épocas ?**
 - Fazemos a analise se filmes lançados em períodos festivos apresentam avaliações significativamente diferentes. 
