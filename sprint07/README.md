@@ -9,7 +9,8 @@
 - [Desafio](Desafio/README.md)
 
 ## **Exercicios**
-1. Foram solictados exercicios na AWS
+1. Exercicios na AWS GLUE
+2. Exercicios Apache-Spark
 - [Exercicios](exercicios/README.md)
 
 ## **Evidências**

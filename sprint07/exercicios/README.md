@@ -1,4 +1,4 @@
-## Exercicio Apache-Spark
+# Exercicio Apache-Spark
 ### Passo 1
 - Iniciamos fazendo o download da imagem Docker com Spark e Jupyer com o comando 
 ``` 
@@ -54,6 +54,7 @@ contador.collect()
 print(f"O numero total de palavras são: {total_palavras}")
 ```
 
+#### Para mais detalhes sobre o código:
+[CódigoCompleto](./Apache-Spark/main.ipynb)
 
-
-## Exercicio Lab AWS GLUE
+# Exercicio Lab AWS GLUE
