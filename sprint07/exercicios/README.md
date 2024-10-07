@@ -60,9 +60,7 @@ print(f"O numero total de palavras são: {total_palavras}")
 # **Evidencias**
 1. Após a execução do código temos como resultado: 
 <img src="../evidencias/img/Spark01.png">
-<img src="../evidencias/img/Spark02.png">
-<img src="../evidencias/img/Spark03.png">
-<img src="../evidencias/img/Spark04.png">
+
 
 - Para mais detalhes do código: 
 ### [Código_Apache-Spark](../exercicios/Apache-Spark/main.ipynb)
