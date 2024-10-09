@@ -2,7 +2,7 @@
 1. Objetivo: 
 * Práticar a combinação de conhecimentos vistos no Programa, fazer um mix de tudo que já foi dito 
 2. Atividade: 
-* Capturar dados do TMDB via Lambda realizando chamadas de API, os dados coletados serão repartidos no bucket nas camadas RAW Zone, mantendo o formato JSON
+* Capturar dados do TMDB via Lambda realizando chamadas de API, os dados coletados serão repartidos no bucket nas camadas RAW Zone, mantendo o formato JSON. 
 
 ## Passo 1
 - Criação do *Dockerfile* para baixarmos as bibliotecas necessárias para colocar na lambda function (Usando como base o python 3.11)
