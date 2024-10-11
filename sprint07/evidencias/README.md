@@ -7,18 +7,21 @@
 ### Arquivos respostas
 - Adicionei também alguns arquivos gerados após a execução do código
 
-550, Fight club
-```
-original_language": "en",
-        "original_title": "Fight Club",
-        "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
-```
-560, Secret Beyond the Door...
+150, 48 HRS.
 ```
 "original_language": "en",
-        "original_title": "Secret Beyond the Door...",
-        "overview": "After a whirlwind romance in Mexico, a beautiful heiress marries a man she barely knows with hardly a second thought. She finds his New York home full of his strange relations, and macabre rooms that are replicas of famous murder sites. One locked room contains the secret to her husband's obsession, and the truth about what happened to his first wife.",
-        "popularity": 5.847,
+        "original_title": "48 Hrs.",
+        "overview": "A hard-nosed cop reluctantly teams up with a wise-cracking criminal temporarily paroled to him, in order to track down a killer.",
+        "popularity": 20.642,
+        "poster_path": "/rvvjXHzEDBIvIVDBHNOwHS7hVPu.jpg",
+```
+180, Minority Report
+```
+"original_language": "en",
+        "original_title": "Minority Report",
+        "overview": "John Anderton is a top 'Precrime' cop in the late-21st century, when technology can predict crimes before they're committed. But Anderton becomes the quarry when another investigator targets him for a murder charge.",
+        "popularity": 30.141,
+        "poster_path": "/qtgFcnwh9dAFLocsDk2ySDVS8UF.jpg",
 ```
 
 ### [Clique aqui para visualizar os arquivos completos exibidos acima](./ArquivosResposta/)
