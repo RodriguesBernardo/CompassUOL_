@@ -152,6 +152,8 @@ job.commit()
 <img src="../evidencias/img/sexoMasculino.png">
 <img src="../evidencias/img/exemploArquivo.png">
 <img src="../evidencias/img/AWS_GLUE(final).png">
+<img src="../evidencias/img/Descbribe_Athena.png">
+
 
 - Para mais detalhes do código: 
 ### [Código Main.py](./AWS_GLUE/main.py)
