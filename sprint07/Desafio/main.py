@@ -2,57 +2,65 @@ import json
 import boto3
 import os
 from tmdbv3api import TMDb, Movie
+from datetime import datetime
 
-# Define a chave da API do TMDb (The Movie Database)
+# Chave da API do TMDB
 TMDB_API_KEY = '03129dc562c7c51794b4fd34d2ca274b'
 
-# Inicializa a biblioteca TMDb e define a chave da API
+# Inicializa a API TMDb com a chave de API
 tmdb = TMDb()
 tmdb.api_key = TMDB_API_KEY
 
-# Inicializa o cliente S3 do boto3 
+# Inicializa o cliente S3 para interagir com o Amazon S3
 s3 = boto3.client('s3')
 
-# Função Lambda para processar a solicitação
 def lambda_handler(event, context):
     try:
-        # Inicializa a classe Movie da API TMDb
+        # Inicializa o objeto 'Movie' para buscar detalhes do filme
         filme = Movie()
-
-        # Recupera o ID do filme do evento, se não houver, usa 550 como padrão
-        id_filme = event.get("id_filme", 550)
-
-        # Obtém os detalhes do filme da API TMDb com base no ID fornecido
+        id_filme = event.get("id_filme", 180) 
         detalhes_filme = filme.details(id_filme)
-
-        # Converte os detalhes do filme em um dicionário
+        
+        # Filtra apenas os dados que podem ser serializados para JSON
         dados_filme = detalhes_filme.__dict__
-        
-        # Filtra os dados do filme para garantir que apenas tipos de dados serializáveis sejam mantidos
-        dados_filme_serializáveis = {key: value for key, value in dados_filme.items() 
-                                     if isinstance(value, (dict, list, str, int, float, bool))}
+        dados_filme_serializáveis = {key: value for key, value in dados_filme.items() if isinstance(value, (dict, list, str, int, float, bool))}
 
-        # Define o bucket S3
+        # Nome do bucket S3
         bucket_s3 = 'sprint07'
-
-        # Define o caminho dentro do bucket S3 onde o arquivo JSON será salvo
-        caminho_s3 = f"desafio/TMDB/JSON/{id_filme}.json"
         
-        # Converte os dados do filme em JSON e os envia para o bucket S3
+        # Obtém a data atual para organizar os arquivos por data no S3
+        data_atual = datetime.now()
+        ano = data_atual.strftime("%Y")
+        mes = data_atual.strftime("%m")
+        dia = data_atual.strftime("%d")
+        
+        # Definir o caminho do arquivo no S3 com base em diferentes camadas de organização
+        camada_armazenamento = "raw" 
+        origem_dado = "TMDB"
+        formato_dado = "JSON"
+        especificacao_dado = "details"
+
+        # Gera o caminho completo no S3 onde o arquivo será salvo
+        caminho_s3 = f"{camada_armazenamento}/{origem_dado}/{formato_dado}/{especificacao_dado}/{ano}/{mes}/{dia}/{id_filme}.json"
+        
+        # Envia o arquivo JSON com os dados do filme para o bucket S3
         s3.put_object(
             Body=json.dumps(dados_filme_serializáveis, ensure_ascii=False, indent=4),
             Bucket=bucket_s3,
             Key=caminho_s3
         )
         
+        # Retorna uma resposta de sucesso com a localização do arquivo
         return {
             'statusCode': 200,
             'body': json.dumps(f"Dados do filme ID {id_filme} salvos com sucesso no S3 em {caminho_s3}")
         }
         
-    # Em caso de erro, retorna uma resposta de erro e a mensagem correspondente
     except Exception as e:
+        # Captura e retorna qualquer erro que ocorrer durante a execução
         return {
             'statusCode': 500,
             'body': json.dumps(f"Erro ao salvar dados do filme: {str(e)}")
         }
+
+

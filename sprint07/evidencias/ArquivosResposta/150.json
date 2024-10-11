@@ -1,0 +1,2282 @@
+{
+    "_json": {
+        "adult": false,
+        "backdrop_path": "/xQTSGz5dvIAYFssPWhD160AcR7Z.jpg",
+        "belongs_to_collection": {
+            "id": 93295,
+            "name": "48 Hrs. Collection",
+            "poster_path": "/cyj3NL0JotRMPajf0lJxMHknfK4.jpg",
+            "backdrop_path": "/53SfXzq0CuBMQNAJMnrvwePbRLN.jpg"
+        },
+        "budget": 12000000,
+        "genres": [
+            {
+                "id": 53,
+                "name": "Thriller"
+            },
+            {
+                "id": 28,
+                "name": "Action"
+            },
+            {
+                "id": 35,
+                "name": "Comedy"
+            },
+            {
+                "id": 80,
+                "name": "Crime"
+            },
+            {
+                "id": 18,
+                "name": "Drama"
+            }
+        ],
+        "homepage": "",
+        "id": 150,
+        "imdb_id": "tt0083511",
+        "origin_country": [
+            "US"
+        ],
+        "original_language": "en",
+        "original_title": "48 Hrs.",
+        "overview": "A hard-nosed cop reluctantly teams up with a wise-cracking criminal temporarily paroled to him, in order to track down a killer.",
+        "popularity": 20.642,
+        "poster_path": "/rvvjXHzEDBIvIVDBHNOwHS7hVPu.jpg",
+        "production_companies": [
+            {
+                "id": 4,
+                "logo_path": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+                "name": "Paramount Pictures",
+                "origin_country": "US"
+            },
+            {
+                "id": 840,
+                "logo_path": null,
+                "name": "Lawrence Gordon Productions",
+                "origin_country": "US"
+            },
+            {
+                "id": 1885,
+                "logo_path": "/xlvoOZr4s1PygosrwZyolIFe5xs.png",
+                "name": "Silver Pictures",
+                "origin_country": "US"
+            }
+        ],
+        "production_countries": [
+            {
+                "iso_3166_1": "US",
+                "name": "United States of America"
+            }
+        ],
+        "release_date": "1982-12-07",
+        "revenue": 78868508,
+        "runtime": 96,
+        "spoken_languages": [
+            {
+                "english_name": "English",
+                "iso_639_1": "en",
+                "name": "English"
+            }
+        ],
+        "status": "Released",
+        "tagline": "One cop. One con. No mercy.",
+        "title": "48 Hrs.",
+        "video": false,
+        "vote_average": 6.7,
+        "vote_count": 1463,
+        "videos": {
+            "results": [
+                {
+                    "iso_639_1": "en",
+                    "iso_3166_1": "US",
+                    "name": "48 Hrs. (1982) Original Trailer [FHD]",
+                    "key": "tzzKUTQVXSM",
+                    "site": "YouTube",
+                    "size": 1080,
+                    "type": "Trailer",
+                    "official": false,
+                    "published_at": "2021-09-29T10:00:27.000Z",
+                    "id": "62d33277cf62cd006773db2f"
+                },
+                {
+                    "iso_639_1": "en",
+                    "iso_3166_1": "US",
+                    "name": "48 Hrs. - Trailer",
+                    "key": "24XiqMIC6q8",
+                    "published_at": "2012-05-29T04:45:22.000Z",
+                    "site": "YouTube",
+                    "size": 360,
+                    "type": "Trailer",
+                    "official": true,
+                    "id": "533ec652c3a368544800012f"
+                }
+            ]
+        },
+        "trailers": {
+            "quicktime": [],
+            "youtube": [
+                {
+                    "name": "48 Hrs. - Trailer",
+                    "size": "Standard",
+                    "source": "24XiqMIC6q8",
+                    "type": "Trailer"
+                },
+                {
+                    "name": "48 Hrs. (1982) Original Trailer [FHD]",
+                    "size": "HD",
+                    "source": "tzzKUTQVXSM",
+                    "type": "Trailer"
+                }
+            ]
+        },
+        "images": {
+            "backdrops": [],
+            "logos": [],
+            "posters": []
+        },
+        "casts": {
+            "cast": [
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1733,
+                    "known_for_department": "Acting",
+                    "name": "Nick Nolte",
+                    "original_name": "Nick Nolte",
+                    "popularity": 21.393,
+                    "profile_path": "/jpYzFBi6zfn8CHVaXmqgiOTas4V.jpg",
+                    "cast_id": 15,
+                    "character": "Jack Cates",
+                    "credit_id": "52fe421fc3a36847f800592b",
+                    "order": 0
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 776,
+                    "known_for_department": "Acting",
+                    "name": "Eddie Murphy",
+                    "original_name": "Eddie Murphy",
+                    "popularity": 23.016,
+                    "profile_path": "/hXFDS5b1Wu1SECKG2nJVIao7iSu.jpg",
+                    "cast_id": 16,
+                    "character": "Reggie Hammond",
+                    "credit_id": "52fe421fc3a36847f800592f",
+                    "order": 1
+                },
+                {
+                    "adult": false,
+                    "gender": 1,
+                    "id": 1734,
+                    "known_for_department": "Acting",
+                    "name": "Annette O'Toole",
+                    "original_name": "Annette O'Toole",
+                    "popularity": 20.467,
+                    "profile_path": "/z5BS5EeuhpM2KGFfUjOhVXtjmMy.jpg",
+                    "cast_id": 17,
+                    "character": "Elaine",
+                    "credit_id": "52fe421fc3a36847f8005933",
+                    "order": 2
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1735,
+                    "known_for_department": "Acting",
+                    "name": "Frank McRae",
+                    "original_name": "Frank McRae",
+                    "popularity": 13.273,
+                    "profile_path": "/tkEt3ACC46Zjm8pmPVBXva0p84Q.jpg",
+                    "cast_id": 18,
+                    "character": "Haden",
+                    "credit_id": "52fe421fc3a36847f8005937",
+                    "order": 3
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1736,
+                    "known_for_department": "Acting",
+                    "name": "James Remar",
+                    "original_name": "James Remar",
+                    "popularity": 22.903,
+                    "profile_path": "/56LwfMaMge2LmWYI46O6R2Wm0YX.jpg",
+                    "cast_id": 19,
+                    "character": "Albert Ganz",
+                    "credit_id": "52fe421fc3a36847f800593b",
+                    "order": 4
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1737,
+                    "known_for_department": "Acting",
+                    "name": "David Patrick Kelly",
+                    "original_name": "David Patrick Kelly",
+                    "popularity": 8.948,
+                    "profile_path": "/dPAqT9CuCgvMxEZQqtQPWEQwmIe.jpg",
+                    "cast_id": 20,
+                    "character": "Luther",
+                    "credit_id": "52fe421fc3a36847f800593f",
+                    "order": 5
+                },
+                {
+                    "adult": true,
+                    "gender": 2,
+                    "id": 1105,
+                    "known_for_department": "Acting",
+                    "name": "Sonny Landham",
+                    "original_name": "Sonny Landham",
+                    "popularity": 9.74,
+                    "profile_path": "/873kBnyYgm8xYyeb26EXdCGDgnv.jpg",
+                    "cast_id": 21,
+                    "character": "Billy Bear",
+                    "credit_id": "52fe421fc3a36847f8005943",
+                    "order": 6
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 591,
+                    "known_for_department": "Acting",
+                    "name": "Brion James",
+                    "original_name": "Brion James",
+                    "popularity": 13.418,
+                    "profile_path": "/3v7Z039TZyMaMen2asOMmMG02lB.jpg",
+                    "cast_id": 22,
+                    "character": "Ben Kehoe",
+                    "credit_id": "52fe421fc3a36847f8005947",
+                    "order": 7
+                },
+                {
+                    "adult": false,
+                    "gender": 1,
+                    "id": 1216889,
+                    "known_for_department": "Acting",
+                    "name": "Kerry Sherman",
+                    "original_name": "Kerry Sherman",
+                    "popularity": 4.92,
+                    "profile_path": "/nXGoVnWyJY1SuoX8M8U3oy96WHD.jpg",
+                    "cast_id": 71,
+                    "character": "Rosalie, Hostage Girl",
+                    "credit_id": "55c073e1c3a36822530012c1",
+                    "order": 8
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 783,
+                    "known_for_department": "Acting",
+                    "name": "Jonathan Banks",
+                    "original_name": "Jonathan Banks",
+                    "popularity": 21.11,
+                    "profile_path": "/bswk26L13PvY4iMTwUTAsepXCLv.jpg",
+                    "cast_id": 24,
+                    "character": "Algren",
+                    "credit_id": "52fe421fc3a36847f800594f",
+                    "order": 9
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1739,
+                    "known_for_department": "Acting",
+                    "name": "James Keane",
+                    "original_name": "James Keane",
+                    "popularity": 4.9,
+                    "profile_path": "/qGOuDCsYQ6IVfUr2P5K2pV6v9Ij.jpg",
+                    "cast_id": 25,
+                    "character": "Vanzant",
+                    "credit_id": "52fe421fc3a36847f8005953",
+                    "order": 10
+                },
+                {
+                    "adult": false,
+                    "gender": 1,
+                    "id": 1740,
+                    "known_for_department": "Acting",
+                    "name": "Tara King",
+                    "original_name": "Tara King",
+                    "popularity": 3.129,
+                    "profile_path": "/xtT4SPZiaP7ftIYijhz2BBeUWsE.jpg",
+                    "cast_id": 26,
+                    "character": "Frizzy, Hotel Desk Clerk",
+                    "credit_id": "52fe421fc3a36847f8005957",
+                    "order": 11
+                },
+                {
+                    "adult": false,
+                    "gender": 1,
+                    "id": 1741,
+                    "known_for_department": "Acting",
+                    "name": "Greta Blackburn",
+                    "original_name": "Greta Blackburn",
+                    "popularity": 4.061,
+                    "profile_path": "/bVfVr5yDKhlzDkqlITcd3ye9irH.jpg",
+                    "cast_id": 27,
+                    "character": "Lisa, Blonde Hooker",
+                    "credit_id": "52fe421fc3a36847f800595b",
+                    "order": 12
+                },
+                {
+                    "adult": false,
+                    "gender": 1,
+                    "id": 1742,
+                    "known_for_department": "Acting",
+                    "name": "Margot Rose",
+                    "original_name": "Margot Rose",
+                    "popularity": 2.706,
+                    "profile_path": "/mldSJeCQbbVfvO5A3Gkaplmghk0.jpg",
+                    "cast_id": 28,
+                    "character": "Casey",
+                    "credit_id": "52fe421fc3a36847f800595f",
+                    "order": 13
+                },
+                {
+                    "adult": false,
+                    "gender": 1,
+                    "id": 1743,
+                    "known_for_department": "Acting",
+                    "name": "Denise Crosby",
+                    "original_name": "Denise Crosby",
+                    "popularity": 11.672,
+                    "profile_path": "/1Eoo8o3xRGflJ9kHxg1eFVwAwQa.jpg",
+                    "cast_id": 29,
+                    "character": "Sally",
+                    "credit_id": "52fe421fc3a36847f8005963",
+                    "order": 14
+                },
+                {
+                    "adult": false,
+                    "gender": 1,
+                    "id": 154141,
+                    "known_for_department": "Acting",
+                    "name": "Olivia Brown",
+                    "original_name": "Olivia Brown",
+                    "popularity": 7.457,
+                    "profile_path": "/gPagR6TAgiNh0n1dpUreTPwXvTv.jpg",
+                    "cast_id": 31,
+                    "character": "Candy",
+                    "credit_id": "52fe421fc3a36847f800596d",
+                    "order": 15
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 21484,
+                    "known_for_department": "Acting",
+                    "name": "Todd Allen",
+                    "original_name": "Todd Allen",
+                    "popularity": 5.457,
+                    "profile_path": "/xrbPXMUUwVft8NlwavDMxWkfVqW.jpg",
+                    "cast_id": 32,
+                    "character": "Young Cop",
+                    "credit_id": "52fe421fc3a36847f8005971",
+                    "order": 16
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 169003,
+                    "known_for_department": "Acting",
+                    "name": "Bill Dearth",
+                    "original_name": "Bill Dearth",
+                    "popularity": 0.878,
+                    "profile_path": "/hGrUyu9RL3FhDv9G8wAhSronjlm.jpg",
+                    "cast_id": 33,
+                    "character": "Thin Cop",
+                    "credit_id": "52fe421fc3a36847f8005975",
+                    "order": 17
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 42006,
+                    "known_for_department": "Production",
+                    "name": "Ned Dowd",
+                    "original_name": "Ned Dowd",
+                    "popularity": 1.63,
+                    "profile_path": "/l6DltK997GS5SIDBmwRa5ia7iLR.jpg",
+                    "cast_id": 34,
+                    "character": "Big Cop",
+                    "credit_id": "52fe421fc3a36847f8005979",
+                    "order": 18
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 10380,
+                    "known_for_department": "Acting",
+                    "name": "Jim Haynie",
+                    "original_name": "Jim Haynie",
+                    "popularity": 5.692,
+                    "profile_path": "/xOOfHlwhjY9OKeLeUCJ2oiSz8gn.jpg",
+                    "cast_id": 35,
+                    "character": "Old Cop",
+                    "credit_id": "52fe421fc3a36847f800597d",
+                    "order": 19
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 14320,
+                    "known_for_department": "Acting",
+                    "name": "Jack Thibeau",
+                    "original_name": "Jack Thibeau",
+                    "popularity": 3.483,
+                    "profile_path": "/cKJ2ck7NfxY7KXS9jZInnluKMig.jpg",
+                    "cast_id": 36,
+                    "character": "Detective",
+                    "credit_id": "52fe421fc3a36847f8005981",
+                    "order": 20
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 164696,
+                    "known_for_department": "Acting",
+                    "name": "Jon St. Elwood",
+                    "original_name": "Jon St. Elwood",
+                    "popularity": 1.541,
+                    "profile_path": null,
+                    "cast_id": 37,
+                    "character": "Plainclothes Man",
+                    "credit_id": "52fe421fc3a36847f8005985",
+                    "order": 21
+                },
+                {
+                    "adult": false,
+                    "gender": 1,
+                    "id": 158904,
+                    "known_for_department": "Acting",
+                    "name": "Clare Torao",
+                    "original_name": "Clare Torao",
+                    "popularity": 3.037,
+                    "profile_path": "/11PRii6wMm1nc6rVaAVzDpKAaDC.jpg",
+                    "cast_id": 38,
+                    "character": "Ruth",
+                    "credit_id": "52fe421fc3a36847f8005989",
+                    "order": 22
+                },
+                {
+                    "adult": false,
+                    "gender": 1,
+                    "id": 53931,
+                    "known_for_department": "Acting",
+                    "name": "Sandy Martin",
+                    "original_name": "Sandy Martin",
+                    "popularity": 3.891,
+                    "profile_path": "/wMR75F1tIAVA6tTnlq0A0xP30tE.jpg",
+                    "cast_id": 39,
+                    "character": "Policewoman",
+                    "credit_id": "52fe421fc3a36847f800598d",
+                    "order": 23
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 156522,
+                    "known_for_department": "Acting",
+                    "name": "Matt Landers",
+                    "original_name": "Matt Landers",
+                    "popularity": 2.988,
+                    "profile_path": "/y9Eym5hhdGg8lGXYIIz5P2qIQO6.jpg",
+                    "cast_id": 40,
+                    "character": "Bob",
+                    "credit_id": "52fe421fc3a36847f8005991",
+                    "order": 24
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 6916,
+                    "known_for_department": "Acting",
+                    "name": "Peter Jason",
+                    "original_name": "Peter Jason",
+                    "popularity": 6.183,
+                    "profile_path": "/xoqIuVvEH6BG6sOg4NnZzUKFnaf.jpg",
+                    "cast_id": 41,
+                    "character": "Cowboy Bartender",
+                    "credit_id": "52fe421fc3a36847f8005995",
+                    "order": 25
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 97976,
+                    "known_for_department": "Acting",
+                    "name": "Bill Cross",
+                    "original_name": "Bill Cross",
+                    "popularity": 1.911,
+                    "profile_path": null,
+                    "cast_id": 42,
+                    "character": "First Cop",
+                    "credit_id": "52fe421fc3a36847f8005999",
+                    "order": 26
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 15824,
+                    "known_for_department": "Acting",
+                    "name": "Chris Mulkey",
+                    "original_name": "Chris Mulkey",
+                    "popularity": 13.124,
+                    "profile_path": "/fNsKtr9iTSEFoHknI6dJm0hC6qH.jpg",
+                    "cast_id": 43,
+                    "character": "Second Cop",
+                    "credit_id": "52fe421fc3a36847f800599d",
+                    "order": 27
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1132251,
+                    "known_for_department": "Acting",
+                    "name": "Marcelino Sánchez",
+                    "original_name": "Marcelino Sánchez",
+                    "popularity": 2.033,
+                    "profile_path": null,
+                    "cast_id": 44,
+                    "character": "Parking Lot Attendant",
+                    "credit_id": "52fe421fc3a36847f80059a1",
+                    "order": 28
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 949734,
+                    "known_for_department": "Acting",
+                    "name": "Bennie E. Dobbins",
+                    "original_name": "Bennie E. Dobbins",
+                    "popularity": 6.376,
+                    "profile_path": null,
+                    "cast_id": 45,
+                    "character": "Road Gang Guard",
+                    "credit_id": "52fe421fc3a36847f80059a5",
+                    "order": 29
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 16474,
+                    "known_for_department": "Crew",
+                    "name": "Walter Scott",
+                    "original_name": "Walter Scott",
+                    "popularity": 6.668,
+                    "profile_path": "/A9dmPAJ9RKChD2hOUssR9is9n6R.jpg",
+                    "cast_id": 46,
+                    "character": "Road Gang Guard",
+                    "credit_id": "52fe421fc3a36847f80059a9",
+                    "order": 30
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1729772,
+                    "known_for_department": "Acting",
+                    "name": "W.T. Zacha",
+                    "original_name": "W.T. Zacha",
+                    "popularity": 1.307,
+                    "profile_path": null,
+                    "cast_id": 47,
+                    "character": "Road Gang Guard",
+                    "credit_id": "52fe421fc3a36847f80059ad",
+                    "order": 31
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 2277,
+                    "known_for_department": "Acting",
+                    "name": "Loyd Catlett",
+                    "original_name": "Loyd Catlett",
+                    "popularity": 1.11,
+                    "profile_path": "/ifPBaUPkZspc8gyvuOdCxXfn2Ux.jpg",
+                    "cast_id": 49,
+                    "character": "Prison Guard",
+                    "credit_id": "52fe421fc3a36847f80059b5",
+                    "order": 32
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1289390,
+                    "known_for_department": "Acting",
+                    "name": "B. G. Fisher",
+                    "original_name": "B. G. Fisher",
+                    "popularity": 0.067,
+                    "profile_path": null,
+                    "cast_id": 50,
+                    "character": "Prison Guard",
+                    "credit_id": "52fe421fc3a36847f80059b9",
+                    "order": 33
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 136236,
+                    "known_for_department": "Acting",
+                    "name": "Reid Cruickshanks",
+                    "original_name": "Reid Cruickshanks",
+                    "popularity": 4.514,
+                    "profile_path": "/uyBspmHZLmrLKCX1KobVWUapU86.jpg",
+                    "cast_id": 51,
+                    "character": "Prison Guard",
+                    "credit_id": "52fe421fc3a36847f80059bd",
+                    "order": 34
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 49832,
+                    "known_for_department": "Acting",
+                    "name": "R. D. Call",
+                    "original_name": "R. D. Call",
+                    "popularity": 3.445,
+                    "profile_path": "/c1lpGYJgYwXLkmEFeRAJWNDuo5H.jpg",
+                    "cast_id": 52,
+                    "character": "Duty Sergeant",
+                    "credit_id": "52fe421fc3a36847f80059c1",
+                    "order": 35
+                },
+                {
+                    "adult": false,
+                    "gender": 1,
+                    "id": 101762,
+                    "known_for_department": "Acting",
+                    "name": "Brenda Venus",
+                    "original_name": "Brenda Venus",
+                    "popularity": 3.977,
+                    "profile_path": "/oOg8oPGSyK8cxnNDss6054uTuAz.jpg",
+                    "cast_id": 53,
+                    "character": "Hooker",
+                    "credit_id": "52fe421fc3a36847f80059c5",
+                    "order": 36
+                },
+                {
+                    "adult": false,
+                    "gender": 1,
+                    "id": 92587,
+                    "known_for_department": "Acting",
+                    "name": "Gloria Gifford",
+                    "original_name": "Gloria Gifford",
+                    "popularity": 3.011,
+                    "profile_path": "/gEGEJoZocXvFLSWDd6LNvbRVWAC.jpg",
+                    "cast_id": 54,
+                    "character": "Hooker",
+                    "credit_id": "52fe421fc3a36847f80059c9",
+                    "order": 37
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 91241,
+                    "known_for_department": "Acting",
+                    "name": "Nick Dimitri",
+                    "original_name": "Nick Dimitri",
+                    "popularity": 5.467,
+                    "profile_path": "/nC9oJgeFcLogGbCPcGd80MF413T.jpg",
+                    "cast_id": 55,
+                    "character": "Torchy's Patron",
+                    "credit_id": "52fe421fc3a36847f80059cd",
+                    "order": 38
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 85869,
+                    "known_for_department": "Acting",
+                    "name": "John Dennis Johnston",
+                    "original_name": "John Dennis Johnston",
+                    "popularity": 4.433,
+                    "profile_path": "/dgwzP54biUoMfQSMeA7M08bLXgx.jpg",
+                    "cast_id": 56,
+                    "character": "Torchy's Patron",
+                    "credit_id": "52fe421fc3a36847f80059d1",
+                    "order": 39
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 999700,
+                    "known_for_department": "Crew",
+                    "name": "Rock A. Walker",
+                    "original_name": "Rock A. Walker",
+                    "popularity": 1.156,
+                    "profile_path": null,
+                    "cast_id": 57,
+                    "character": "Torchy's Patron",
+                    "credit_id": "52fe421fc3a36847f80059d5",
+                    "order": 40
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1289391,
+                    "known_for_department": "Acting",
+                    "name": "Dave Moordigian",
+                    "original_name": "Dave Moordigian",
+                    "popularity": 0.351,
+                    "profile_path": null,
+                    "cast_id": 58,
+                    "character": "Gas Station Attendant",
+                    "credit_id": "52fe421fc3a36847f80059d9",
+                    "order": 41
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 555973,
+                    "known_for_department": "Acting",
+                    "name": "J. Wesley Huston",
+                    "original_name": "J. Wesley Huston",
+                    "popularity": 0.025,
+                    "profile_path": null,
+                    "cast_id": 59,
+                    "character": "Security Guard",
+                    "credit_id": "52fe421fc3a36847f80059dd",
+                    "order": 42
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 174662,
+                    "known_for_department": "Acting",
+                    "name": "Gary Pettinger",
+                    "original_name": "Gary Pettinger",
+                    "popularity": 1.313,
+                    "profile_path": null,
+                    "cast_id": 60,
+                    "character": "Cop with Gun",
+                    "credit_id": "52fe421fc3a36847f80059e1",
+                    "order": 43
+                },
+                {
+                    "adult": false,
+                    "gender": 1,
+                    "id": 1289392,
+                    "known_for_department": "Acting",
+                    "name": "Marquerita Wallace",
+                    "original_name": "Marquerita Wallace",
+                    "popularity": 0.487,
+                    "profile_path": "/eeoDAT4eZbkUR3RFs92oBkKzSCx.jpg",
+                    "cast_id": 61,
+                    "character": "Bar Girl",
+                    "credit_id": "52fe421fc3a36847f80059e5",
+                    "order": 44
+                },
+                {
+                    "adult": false,
+                    "gender": 1,
+                    "id": 106703,
+                    "known_for_department": "Acting",
+                    "name": "Angela Robinson Witherspoon",
+                    "original_name": "Angela Robinson Witherspoon",
+                    "popularity": 1.62,
+                    "profile_path": "/qy1Z8Sjf5hB3pi03zP9STIKUYPn.jpg",
+                    "cast_id": 62,
+                    "character": "Bar Girl",
+                    "credit_id": "52fe421fc3a36847f80059e9",
+                    "order": 45
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 193300,
+                    "known_for_department": "Acting",
+                    "name": "Jack Lightsy",
+                    "original_name": "Jack Lightsy",
+                    "popularity": 0.577,
+                    "profile_path": null,
+                    "cast_id": 63,
+                    "character": "Bartender",
+                    "credit_id": "52fe421fc3a36847f80059ed",
+                    "order": 46
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1118713,
+                    "known_for_department": "Acting",
+                    "name": "John Hauk",
+                    "original_name": "John Hauk",
+                    "popularity": 0.57,
+                    "profile_path": null,
+                    "cast_id": 64,
+                    "character": "Henry Wong",
+                    "credit_id": "52fe421fc3a36847f80059f1",
+                    "order": 47
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1289393,
+                    "known_for_department": "Acting",
+                    "name": "Bob Yanez",
+                    "original_name": "Bob Yanez",
+                    "popularity": 0.07,
+                    "profile_path": null,
+                    "cast_id": 65,
+                    "character": "Interrogator",
+                    "credit_id": "52fe421fc3a36847f80059f5",
+                    "order": 48
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 214291,
+                    "known_for_department": "Acting",
+                    "name": "Clint Smith",
+                    "original_name": "Clint Smith",
+                    "popularity": 6.314,
+                    "profile_path": "/sfELKA9icygo1fJn2m2vQJs5eoR.jpg",
+                    "cast_id": 66,
+                    "character": "Leroy",
+                    "credit_id": "52fe421fc3a36847f80059f9",
+                    "order": 49
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 85870,
+                    "known_for_department": "Acting",
+                    "name": "Luis Contreras",
+                    "original_name": "Luis Contreras",
+                    "popularity": 3.064,
+                    "profile_path": "/xWM5f9ryzSM9CM09WWYxES0QNWE.jpg",
+                    "cast_id": 67,
+                    "character": "Gang Member",
+                    "credit_id": "52fe421fc3a36847f80059fd",
+                    "order": 50
+                },
+                {
+                    "adult": false,
+                    "gender": 1,
+                    "id": 1289394,
+                    "known_for_department": "Acting",
+                    "name": "Suzanne M. Regard",
+                    "original_name": "Suzanne M. Regard",
+                    "popularity": 1.408,
+                    "profile_path": "/3HTEZS16R9dNkARTKlD2u8DCqx1.jpg",
+                    "cast_id": 68,
+                    "character": "Cowgirl Dancer",
+                    "credit_id": "52fe421fc3a36847f8005a01",
+                    "order": 51
+                },
+                {
+                    "adult": false,
+                    "gender": 1,
+                    "id": 926,
+                    "known_for_department": "Acting",
+                    "name": "Ola Ray",
+                    "original_name": "Ola Ray",
+                    "popularity": 7.595,
+                    "profile_path": "/ii6baCrYqNXBMFmPuGaCiUYlwdM.jpg",
+                    "cast_id": 69,
+                    "character": "Vroman's Dancer",
+                    "credit_id": "52fe421fc3a36847f8005a05",
+                    "order": 52
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1289395,
+                    "known_for_department": "Acting",
+                    "name": "Bjaye Turner",
+                    "original_name": "Bjaye Turner",
+                    "popularity": 0.001,
+                    "profile_path": null,
+                    "cast_id": 70,
+                    "character": "Vroman's Dancer",
+                    "credit_id": "52fe421fc3a36847f8005a09",
+                    "order": 53
+                },
+                {
+                    "adult": false,
+                    "gender": 1,
+                    "id": 181343,
+                    "known_for_department": "Acting",
+                    "name": "Begonya Plaza",
+                    "original_name": "Begonya Plaza",
+                    "popularity": 1.733,
+                    "profile_path": "/lt7xH5ttmaJsZnc15FoSJnXTpnE.jpg",
+                    "cast_id": 72,
+                    "character": "Indian Hooker",
+                    "credit_id": "59b28c3c925141072f09de74",
+                    "order": 54
+                }
+            ],
+            "crew": [
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1093,
+                    "known_for_department": "Production",
+                    "name": "Lawrence Gordon",
+                    "original_name": "Lawrence Gordon",
+                    "popularity": 2.435,
+                    "profile_path": "/mdKtKRJtIgjKE6aVo2OyTZPKSda.jpg",
+                    "credit_id": "52fe421ec3a36847f80058e5",
+                    "department": "Production",
+                    "job": "Producer"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1728,
+                    "known_for_department": "Camera",
+                    "name": "Ric Waite",
+                    "original_name": "Ric Waite",
+                    "popularity": 0.77,
+                    "profile_path": null,
+                    "credit_id": "52fe421fc3a36847f8005903",
+                    "department": "Camera",
+                    "job": "Director of Photography"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1729,
+                    "known_for_department": "Sound",
+                    "name": "James Horner",
+                    "original_name": "James Horner",
+                    "popularity": 4.521,
+                    "profile_path": "/g2C3Fb4fHCU2gnqUcwTQCv5EZc4.jpg",
+                    "credit_id": "52fe421fc3a36847f8005909",
+                    "department": "Sound",
+                    "job": "Original Music Composer"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1096,
+                    "known_for_department": "Art",
+                    "name": "John Vallone",
+                    "original_name": "John Vallone",
+                    "popularity": 1.274,
+                    "profile_path": null,
+                    "credit_id": "52fe421fc3a36847f800590f",
+                    "department": "Art",
+                    "job": "Production Design"
+                },
+                {
+                    "adult": false,
+                    "gender": 1,
+                    "id": 1730,
+                    "known_for_department": "Production",
+                    "name": "Judith Holstra",
+                    "original_name": "Judith Holstra",
+                    "popularity": 2.557,
+                    "profile_path": null,
+                    "credit_id": "52fe421fc3a36847f8005915",
+                    "department": "Production",
+                    "job": "Casting"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1723,
+                    "known_for_department": "Directing",
+                    "name": "Walter Hill",
+                    "original_name": "Walter Hill",
+                    "popularity": 10.813,
+                    "profile_path": "/3CiICrmhaYnirmOMHEaFXYTbsnT.jpg",
+                    "credit_id": "52fe421ec3a36847f80058d9",
+                    "department": "Directing",
+                    "job": "Director"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1732,
+                    "known_for_department": "Editing",
+                    "name": "Mark Warner",
+                    "original_name": "Mark Warner",
+                    "popularity": 0.921,
+                    "profile_path": null,
+                    "credit_id": "52fe421fc3a36847f8005921",
+                    "department": "Editing",
+                    "job": "Editor"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 909,
+                    "known_for_department": "Editing",
+                    "name": "Billy Weber",
+                    "original_name": "Billy Weber",
+                    "popularity": 1.246,
+                    "profile_path": null,
+                    "credit_id": "52fe421fc3a36847f8005927",
+                    "department": "Editing",
+                    "job": "Editor"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1091,
+                    "known_for_department": "Production",
+                    "name": "Joel Silver",
+                    "original_name": "Joel Silver",
+                    "popularity": 3.9,
+                    "profile_path": "/5YWxIdEql8yyGWIcF1X3QPQ40u6.jpg",
+                    "credit_id": "52fe421ec3a36847f80058df",
+                    "department": "Production",
+                    "job": "Producer"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1731,
+                    "known_for_department": "Editing",
+                    "name": "Freeman A. Davies",
+                    "original_name": "Freeman A. Davies",
+                    "popularity": 2.098,
+                    "profile_path": null,
+                    "credit_id": "52fe421fc3a36847f800591b",
+                    "department": "Editing",
+                    "job": "Editor"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 8376,
+                    "known_for_department": "Sound",
+                    "name": "Mark Mangini",
+                    "original_name": "Mark Mangini",
+                    "popularity": 2.627,
+                    "profile_path": "/q2LCMIFYJZlZtSCIJjwS8zfAnfE.jpg",
+                    "credit_id": "61a735a63d4d9600919efb4a",
+                    "department": "Sound",
+                    "job": "ADR Editor"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 19567,
+                    "known_for_department": "Crew",
+                    "name": "Terry Leonard",
+                    "original_name": "Terry Leonard",
+                    "popularity": 3.014,
+                    "profile_path": "/iRejgxxjuMXfLLYHXGCInX288B.jpg",
+                    "credit_id": "6420bc8723be4600c0f5cbf0",
+                    "department": "Crew",
+                    "job": "Stunt Double"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1725,
+                    "known_for_department": "Writing",
+                    "name": "Larry Gross",
+                    "original_name": "Larry Gross",
+                    "popularity": 2.261,
+                    "profile_path": "/phf1rWZjHBe3CKhAp3Sfg1ZZfFb.jpg",
+                    "credit_id": "6421ffc18d22fc008403de1b",
+                    "department": "Writing",
+                    "job": "Writer"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 91241,
+                    "known_for_department": "Acting",
+                    "name": "Nick Dimitri",
+                    "original_name": "Nick Dimitri",
+                    "popularity": 5.467,
+                    "profile_path": "/nC9oJgeFcLogGbCPcGd80MF413T.jpg",
+                    "credit_id": "6421ff718d22fc008403de05",
+                    "department": "Crew",
+                    "job": "Stunts"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1614242,
+                    "known_for_department": "Crew",
+                    "name": "John Sherrod",
+                    "original_name": "John Sherrod",
+                    "popularity": 1.45,
+                    "profile_path": null,
+                    "credit_id": "6422004023be460082b342b7",
+                    "department": "Crew",
+                    "job": "Stunt Double"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1745146,
+                    "known_for_department": "Crew",
+                    "name": "Jerry Brutsche",
+                    "original_name": "Jerry Brutsche",
+                    "popularity": 2.931,
+                    "profile_path": null,
+                    "credit_id": "6422005023be4600df99ad11",
+                    "department": "Crew",
+                    "job": "Stunts"
+                },
+                {
+                    "adult": false,
+                    "gender": 0,
+                    "id": 3304237,
+                    "known_for_department": "Acting",
+                    "name": "Billy C. Chandler",
+                    "original_name": "Billy C. Chandler",
+                    "popularity": 0.001,
+                    "profile_path": null,
+                    "credit_id": "642200562dc9dc00fd1c1bbb",
+                    "department": "Crew",
+                    "job": "Stunts"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1723,
+                    "known_for_department": "Directing",
+                    "name": "Walter Hill",
+                    "original_name": "Walter Hill",
+                    "popularity": 10.813,
+                    "profile_path": "/3CiICrmhaYnirmOMHEaFXYTbsnT.jpg",
+                    "credit_id": "6421ffb608cf8700bfee78af",
+                    "department": "Writing",
+                    "job": "Writer"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 195981,
+                    "known_for_department": "Crew",
+                    "name": "Larry Holt",
+                    "original_name": "Larry Holt",
+                    "popularity": 2.46,
+                    "profile_path": null,
+                    "credit_id": "6422003a23be46007d54e15b",
+                    "department": "Crew",
+                    "job": "Stunts"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 12948,
+                    "known_for_department": "Crew",
+                    "name": "Conrad E. Palmisano",
+                    "original_name": "Conrad E. Palmisano",
+                    "popularity": 5.457,
+                    "profile_path": "/9012ElbfHVSrl0Jzvip19rFaLBP.jpg",
+                    "credit_id": "64220066c7a7e000849fdfe3",
+                    "department": "Crew",
+                    "job": "Stunt Driver"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 14342,
+                    "known_for_department": "Art",
+                    "name": "Richard C. Goddard",
+                    "original_name": "Richard C. Goddard",
+                    "popularity": 1.023,
+                    "profile_path": null,
+                    "credit_id": "6421fff26a344800ccb2affb",
+                    "department": "Art",
+                    "job": "Set Decoration"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1511730,
+                    "known_for_department": "Crew",
+                    "name": "Joseph P. Mercurio",
+                    "original_name": "Joseph P. Mercurio",
+                    "popularity": 2.087,
+                    "profile_path": null,
+                    "credit_id": "64220021c7a7e000849fdfca",
+                    "department": "Crew",
+                    "job": "Special Effects"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 9554,
+                    "known_for_department": "Crew",
+                    "name": "Bruce Paul Barbour",
+                    "original_name": "Bruce Paul Barbour",
+                    "popularity": 5.312,
+                    "profile_path": null,
+                    "credit_id": "642200338d22fc00ef178d34",
+                    "department": "Crew",
+                    "job": "Stunts"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 15850,
+                    "known_for_department": "Acting",
+                    "name": "Tony Brubaker",
+                    "original_name": "Tony Brubaker",
+                    "popularity": 6.77,
+                    "profile_path": "/pi2U3iRoMNc4zHvzWdXG8hqMQUn.jpg",
+                    "credit_id": "6422001a2dc9dc007f0dd787",
+                    "department": "Crew",
+                    "job": "Stunts"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1726,
+                    "known_for_department": "Writing",
+                    "name": "Steven E. de Souza",
+                    "original_name": "Steven E. de Souza",
+                    "popularity": 7.884,
+                    "profile_path": "/7sUWRiurj2LfdGk6zdYP7fDbQPO.jpg",
+                    "credit_id": "6421ffcac7a7e000849fdfbd",
+                    "department": "Writing",
+                    "job": "Writer"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1724,
+                    "known_for_department": "Directing",
+                    "name": "Roger Spottiswoode",
+                    "original_name": "Roger Spottiswoode",
+                    "popularity": 4.05,
+                    "profile_path": "/ofSwHS4FtNtKO70LHqXdOgU67iP.jpg",
+                    "credit_id": "6421ffbb8d22fc008403de16",
+                    "department": "Writing",
+                    "job": "Writer"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 12879,
+                    "known_for_department": "Crew",
+                    "name": "Vince Deadrick Jr.",
+                    "original_name": "Vince Deadrick Jr.",
+                    "popularity": 1.925,
+                    "profile_path": "/sC1sdK5wObOuwtjHhMXKjg42FoJ.jpg",
+                    "credit_id": "642200136a344800a90af878",
+                    "department": "Crew",
+                    "job": "Stunt Double"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 949734,
+                    "known_for_department": "Acting",
+                    "name": "Bennie E. Dobbins",
+                    "original_name": "Bennie E. Dobbins",
+                    "popularity": 6.376,
+                    "profile_path": null,
+                    "credit_id": "6422006b53466100cd40edc7",
+                    "department": "Crew",
+                    "job": "Stunt Coordinator"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1132695,
+                    "known_for_department": "Lighting",
+                    "name": "Carl Boles",
+                    "original_name": "Carl Boles",
+                    "popularity": 1.447,
+                    "profile_path": null,
+                    "credit_id": "6422007b08cf8700fd879e62",
+                    "department": "Lighting",
+                    "job": "Gaffer"
+                },
+                {
+                    "adult": false,
+                    "gender": 0,
+                    "id": 1699512,
+                    "known_for_department": "Costume & Make-Up",
+                    "name": "Dagmar Loesch",
+                    "original_name": "Dagmar Loesch",
+                    "popularity": 0.343,
+                    "profile_path": null,
+                    "credit_id": "642200022dc9dc00bf59b42e",
+                    "department": "Costume & Make-Up",
+                    "job": "Hairstylist"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 16474,
+                    "known_for_department": "Crew",
+                    "name": "Walter Scott",
+                    "original_name": "Walter Scott",
+                    "popularity": 6.668,
+                    "profile_path": "/A9dmPAJ9RKChD2hOUssR9is9n6R.jpg",
+                    "credit_id": "648e6854559d2200ad825083",
+                    "department": "Crew",
+                    "job": "Stunts"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1378169,
+                    "known_for_department": "Sound",
+                    "name": "Rick Kline",
+                    "original_name": "Rick Kline",
+                    "popularity": 1.31,
+                    "profile_path": null,
+                    "credit_id": "5d4cc4041b72940012da428e",
+                    "department": "Sound",
+                    "job": "Sound Re-Recording Mixer"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 671,
+                    "known_for_department": "Sound",
+                    "name": "Richard L. Anderson",
+                    "original_name": "Richard L. Anderson",
+                    "popularity": 3.791,
+                    "profile_path": "/uan7NxB2Ve39kiHsAXzr1ZtmCEZ.jpg",
+                    "credit_id": "5d4cc3e31283e9001685ac5e",
+                    "department": "Sound",
+                    "job": "Supervising Sound Effects Editor"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 143917,
+                    "known_for_department": "Sound",
+                    "name": "John Dunn",
+                    "original_name": "John Dunn",
+                    "popularity": 0.48,
+                    "profile_path": null,
+                    "credit_id": "5d4cc4413c887d708283940b",
+                    "department": "Sound",
+                    "job": "Sound Editor"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 57549,
+                    "known_for_department": "Production",
+                    "name": "D. Constantine Conte",
+                    "original_name": "D. Constantine Conte",
+                    "popularity": 2.555,
+                    "profile_path": null,
+                    "credit_id": "5d4cc38b1b72940012da4095",
+                    "department": "Production",
+                    "job": "Executive Producer"
+                },
+                {
+                    "adult": false,
+                    "gender": 0,
+                    "id": 2381969,
+                    "known_for_department": "Sound",
+                    "name": "Tim Mangini",
+                    "original_name": "Tim Mangini",
+                    "popularity": 1.067,
+                    "profile_path": null,
+                    "credit_id": "5d4cc44e1065d300134c64fa",
+                    "department": "Sound",
+                    "job": "Sound Editor"
+                },
+                {
+                    "adult": false,
+                    "gender": 1,
+                    "id": 7719,
+                    "known_for_department": "Costume & Make-Up",
+                    "name": "Marilyn Vance",
+                    "original_name": "Marilyn Vance",
+                    "popularity": 2.681,
+                    "profile_path": "/tdNcz7CYAFFKoaYm4EvWec4z3gv.jpg",
+                    "credit_id": "5d4cc3a91283e9001585b215",
+                    "department": "Costume & Make-Up",
+                    "job": "Costume Design"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1332210,
+                    "known_for_department": "Costume & Make-Up",
+                    "name": "Michael Germain",
+                    "original_name": "Michael Germain",
+                    "popularity": 1.597,
+                    "profile_path": null,
+                    "credit_id": "5d4cc3ba699fb700169ebd11",
+                    "department": "Costume & Make-Up",
+                    "job": "Makeup Artist"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 554887,
+                    "known_for_department": "Sound",
+                    "name": "Stephen Hunter Flick",
+                    "original_name": "Stephen Hunter Flick",
+                    "popularity": 1.753,
+                    "profile_path": null,
+                    "credit_id": "5d4cc3f23c887d001583eb4f",
+                    "department": "Sound",
+                    "job": "Supervising Sound Effects Editor"
+                },
+                {
+                    "adult": false,
+                    "gender": 1,
+                    "id": 1415965,
+                    "known_for_department": "Sound",
+                    "name": "Teri E. Dorman",
+                    "original_name": "Teri E. Dorman",
+                    "popularity": 3.526,
+                    "profile_path": null,
+                    "credit_id": "5d4cc42d699fb700179ec7d3",
+                    "department": "Sound",
+                    "job": "Sound Editor"
+                },
+                {
+                    "adult": false,
+                    "gender": 0,
+                    "id": 1341781,
+                    "known_for_department": "Sound",
+                    "name": "Gregg Landaker",
+                    "original_name": "Gregg Landaker",
+                    "popularity": 0.713,
+                    "profile_path": null,
+                    "credit_id": "5d4cc4121065d300134c6237",
+                    "department": "Sound",
+                    "job": "Sound Re-Recording Mixer"
+                },
+                {
+                    "adult": false,
+                    "gender": 0,
+                    "id": 1323090,
+                    "known_for_department": "Costume & Make-Up",
+                    "name": "Edouard F. Henriques",
+                    "original_name": "Edouard F. Henriques",
+                    "popularity": 0.631,
+                    "profile_path": null,
+                    "credit_id": "5d4cc3c81065d300154c46a6",
+                    "department": "Costume & Make-Up",
+                    "job": "Makeup Artist"
+                },
+                {
+                    "adult": false,
+                    "gender": 2,
+                    "id": 1378170,
+                    "known_for_department": "Sound",
+                    "name": "Donald O. Mitchell",
+                    "original_name": "Donald O. Mitchell",
+                    "popularity": 0.699,
+                    "profile_path": null,
+                    "credit_id": "5d4cc41e699fb700179ec79a",
+                    "department": "Sound",
+                    "job": "Sound Re-Recording Mixer"
+                }
+            ]
+        },
+        "translations": {
+            "translations": [
+                {
+                    "iso_3166_1": "US",
+                    "iso_639_1": "en",
+                    "name": "English",
+                    "english_name": "English",
+                    "data": {
+                        "homepage": "",
+                        "overview": "A hard-nosed cop reluctantly teams up with a wise-cracking criminal temporarily paroled to him, in order to track down a killer.",
+                        "runtime": 96,
+                        "tagline": "One cop. One con. No mercy.",
+                        "title": ""
+                    }
+                },
+                {
+                    "iso_3166_1": "DE",
+                    "iso_639_1": "de",
+                    "name": "Deutsch",
+                    "english_name": "German",
+                    "data": {
+                        "homepage": "",
+                        "overview": "Der Schwerverbrecher Albert Ganz kann aus dem Gefängnis von San Francisco türmen. Beim Versuch, den Entflohenen wieder hinter Schloss und Riegel zu bringen, werden zwei Polizisten getötet, Jack Cates aber überlebt den Vorfall. Grund genug für den heruntergekommenen Cop, sich an die Fersen des Ganoven zu heften. Ihm ist jedes Mittel recht, wenn es dabei hilft, den Polizistenmörder wieder ins Gefängnis zu bringen. Deswegen lässt er Reggie Hammond, einen ehemaligen Komplizen des Gangsters, aus dem Knast holen und macht sich gemeinsam mit ihm auf die Jagd nach Ganz. Als Aufpasser muss Cates nun stets ein Auge auf Hammond haben, damit dieser nichts anstellt. Da der Knastbruder Hammond nur für 48 Stunden aus dem Gefängnis entlassen wurde, drängt die Zeit für das ungleiche Ermittlerduo...",
+                        "runtime": 96,
+                        "tagline": "Ein schlitzohriger Polizist und ein ausgebuffter Ganove. Zusammen jagen sie den brutalsten Gangster.",
+                        "title": "Nur 48 Stunden"
+                    }
+                },
+                {
+                    "iso_3166_1": "IT",
+                    "iso_639_1": "it",
+                    "name": "Italiano",
+                    "english_name": "Italian",
+                    "data": {
+                        "homepage": "",
+                        "overview": "In un campo lavoro di una prigione californiana, un detenuto riesce a evadere grazie all'intervento di un alleato indiano. In fuga verso San Francisco, i due si lasciano alla spalle i cadaveri di alcune guardie e di un vecchio socio, prima di minacciare un membro della loro banda e sequestrarne la compagna per cercare di recuperare il mezzo milione di dollari di un vecchio colpo. Nel frattempo, la polizia incrocia per caso il loro percorso nelle stanze di un piccolo albergo della periferia e ne nasce una sparatoria. Fra i poliziotti presenti sul luogo c'è Jack Cates, detective giustiziere nonché bevitore e fumatore compulsivo, che, per un'esitazione di troppo, causa la morte di un agente e la fuga dei due rapinatori. Ormai screditato e colpevolizzato dall'intero dipartimento, Jack decide di agire privatamente coinvolgendo un altro membro della banda finito in prigione: Reggie Hammond...",
+                        "runtime": 96,
+                        "tagline": "",
+                        "title": "48 ore"
+                    }
+                },
+                {
+                    "iso_3166_1": "FR",
+                    "iso_639_1": "fr",
+                    "name": "Français",
+                    "english_name": "French",
+                    "data": {
+                        "homepage": "",
+                        "overview": "Deux meurtriers sont pourchassés par la police, alors qu’ils recherchent le butin d’un casse commis par Reggie Hammond, un de leurs anciens complices actuellement emprisonné. Pour les retrouver, l’inspecteur de police Jack Cates a besoin de l’aide de Reggie. Il va le voir en prison pour solliciter sa collaboration mais Hammond négocie son aide contre une permission de sortie. Jack va donc faire en sorte que Reggie soit en liberté surveillée pendant 48 heures, durant lesquelles il va tenter de l’aider à retrouver ses anciens complices...",
+                        "runtime": 96,
+                        "tagline": "Un flic. Un taulard. Pas de pitié.",
+                        "title": "48 heures"
+                    }
+                },
+                {
+                    "iso_3166_1": "RU",
+                    "iso_639_1": "ru",
+                    "name": "Pусский",
+                    "english_name": "Russian",
+                    "data": {
+                        "homepage": "",
+                        "overview": "Герой Ника Нолте — суровый сыщик, преследующий двух преступников, убивших полицейского. Но он не может справиться с задачей без помощи смышленого, но легкомысленного напарника, отбывающего срок за кражу полумиллиона долларов. Вынужденные партнеры, мягко говоря, с трудом находят общий язык, да и цели у них разные: первый жаждет отомстить негодяям, а второй спит и видит, как получить свои денежки и в придачу одну очень аппетитную дамочку.",
+                        "runtime": 0,
+                        "tagline": "Один коп. Один жулик. Пощады не будет",
+                        "title": "48 часов"
+                    }
+                },
+                {
+                    "iso_3166_1": "TR",
+                    "iso_639_1": "tr",
+                    "name": "Türkçe",
+                    "english_name": "Turkish",
+                    "data": {
+                        "homepage": "",
+                        "overview": "Nick Nolte bir polis, Eddie Murphy bir mahkum. Birbirlerinden hiç hoşlanmadıkları aşikar. Ancak birbirlerine çok ihtiyaçları olduğu da. Ve hiç ummadıkları bir yerdeler; müthiş bir macerada, aynı tarafta. 48 saat için olsa da...",
+                        "runtime": 0,
+                        "tagline": "",
+                        "title": "48 Saat"
+                    }
+                },
+                {
+                    "iso_3166_1": "DK",
+                    "iso_639_1": "da",
+                    "name": "Dansk",
+                    "english_name": "Danish",
+                    "data": {
+                        "homepage": "",
+                        "overview": "Den rapkæftede småforbryder Reggie Hammond sættes på fri fod i 48 timer. Reggie skal hjælpe den trætte detektiv Jack Cates med at fange en gammel bekendt, en desperat morder. Det fører til en hæsblæsende jagt gennem San Francisco.",
+                        "runtime": 96,
+                        "tagline": "",
+                        "title": "48 timer"
+                    }
+                },
+                {
+                    "iso_3166_1": "NL",
+                    "iso_639_1": "nl",
+                    "name": "Nederlands",
+                    "english_name": "Dutch",
+                    "data": {
+                        "homepage": "",
+                        "overview": "Keiharde politieagent Jack Cates is de enige overlevende van een schietpartij. Cates krijgt 48 uur om de moordenaar te vinden en heeft daarvoor de hulp nodig van de gangster Reggie Hammond, die hij voor die korte tijd uit de gevangenis haalt. Maar Reggie is totaal niet gemotiveerd om te helpen en de crimineel-helpt-agent en de blank/zwart situatie zorgt voor de nodige botsingen tussen de twee. Ondanks dat alles blijken het toch goede partners te zijn.",
+                        "runtime": 92,
+                        "tagline": "",
+                        "title": ""
+                    }
+                },
+                {
+                    "iso_3166_1": "HU",
+                    "iso_639_1": "hu",
+                    "name": "Magyar",
+                    "english_name": "Hungarian",
+                    "data": {
+                        "homepage": "",
+                        "overview": "Jack Cates nyomozó igen nehéz helyzetbe kerül egy gyilkossági ügy nyomozása során. Ganz, a helyi maffiózó az első számú gyanúsított, akit azonban szinte lehetetlen lenne elkapni, ha egykori embereinek egyike nem segít a rendőrségnek. Cates Reggie Hammond személyében talál is ilyen embert. Egyetlen probléma van csupán: Hammond éppen a börtönbüntetését tölti. A nyomozónak azonban sikerül elérnie, hogy 48 órára kiengedjék a bűnözőt. A két férfi együtt kell, hogy megoldja a gyilkossági ügyet, ám eközben Cates-nek arra is oda kell figyelnie, hogy Hammond nem készül-e valamire.",
+                        "runtime": 96,
+                        "tagline": "Egy zsaru. Egy szélhámos. Egy csapat.",
+                        "title": "48 óra"
+                    }
+                },
+                {
+                    "iso_3166_1": "BG",
+                    "iso_639_1": "bg",
+                    "name": "български език",
+                    "english_name": "Bulgarian",
+                    "data": {
+                        "homepage": "",
+                        "overview": "Джак е кораво ченге, което е по следите на двама жестоки убийци на полицаи. Той няма никакъв шанс да ги залови без помощта на елегантния хитрец Реджи, излежаващ присъда за кражба на половин милион долара. Джак иска да залови престъпниците, а Реджи просто търси парите и отдавна жадуваната женска компания.",
+                        "runtime": 96,
+                        "tagline": "",
+                        "title": "48 часа"
+                    }
+                },
+                {
+                    "iso_3166_1": "RS",
+                    "iso_639_1": "sr",
+                    "name": "Srpski",
+                    "english_name": "Serbian",
+                    "data": {
+                        "homepage": "",
+                        "overview": "Опасни криминалац Алберт Ганц бежи из затвора уз помоћ пријатеља Индијанца Билија Бера. У потрази за бившим партнером, њих двојица долазе у Сан Франциско, отимају његову девојку и траже да донесе скривени новац. Међутим, убиством привуку на себе пажњу полиције, а посебно детектива Џека Кејтса који је задужен за акцију њиховог хапшења. Џек је полицајац који воли да ради сам и не држи се правила полицијске струке. За време хапшења, Ганц успева да побегне, за собом остављајући нове људске жртве. Љут и понижен, Кејтс започиње бесомучни лов по улицама Сан Франциска у потрази за информацијама о Ганцу... Открива да Ганц редом убија своје бивше сараднике, а један од њих је и Реџи Хамонд, који се још увек налази у затвору. Џек одлази у затвор и тражи од Реџија да сарађује са њим, али овај то одбија. Искусни полицајац је упоран. Извлачи Реџија из затвора на 48 сати. Управо је то време које имају на располагању да пронађу Ганца...",
+                        "runtime": 96,
+                        "tagline": "",
+                        "title": "48 сати"
+                    }
+                },
+                {
+                    "iso_3166_1": "ES",
+                    "iso_639_1": "es",
+                    "name": "Español",
+                    "english_name": "Spanish",
+                    "data": {
+                        "homepage": "",
+                        "overview": "Un duro policía se asocia a regañadientes con un criminal sabelotodo que se encuentra temporalmente en libertad condicional, con el fin de localizar a un asesino.",
+                        "runtime": 96,
+                        "tagline": "Cuando un policía \"duro\" y un presidiario \"tranquilo\" sólo disponen de 48 horas para detener a un criminal, pueden ocurrir muchas cosas...",
+                        "title": "Límite: 48 horas"
+                    }
+                },
+                {
+                    "iso_3166_1": "PT",
+                    "iso_639_1": "pt",
+                    "name": "Português",
+                    "english_name": "Portuguese",
+                    "data": {
+                        "homepage": "",
+                        "overview": "Nick Nolte e Eddie Murphy formam uma das mais incomuns e interessantes duplas de todos os tempos, neste empolgante filme de Walter Hill. Nolte é um tira enfurecido, que está cumprindo pena pelo roubo de meio milhão de dólares. Essa improvável parceria consegue tantas gargalhadas quanto pancadaria, à medida que cada qual busca atingir seu objetivo: Nolte quer os bandidos e Murphy quer recuperar o dinheiro roubado e também quebrar o jejum de companhia feminina. Preste atenção à hilariante cena do bar típico de faroeste - você vai querer repetir mais de uma vez.",
+                        "runtime": 0,
+                        "tagline": "",
+                        "title": "48 Horas"
+                    }
+                },
+                {
+                    "iso_3166_1": "JP",
+                    "iso_639_1": "ja",
+                    "name": "日本語",
+                    "english_name": "Japanese",
+                    "data": {
+                        "homepage": "",
+                        "overview": "カリフォルニア州の砂漠地帯にある刑務所から受刑者が脱獄する。受刑者の名はアルバート・ギャンズ、強盗殺人の前科がある危険な男だ。ギャンズは共犯者ビリー・ベアと共にサンフランシスコに逃亡する。\r 次の日、サンフランシスコ市警察本部のジャック・ケイツ部長刑事は、同僚の刑事2人と共に非行少年が潜伏しているホテルに踏み込む。ところが、そこにいたのは非行少年ではなく、ギャンズたちであった。激しい銃撃戦となり、刑事2人は射殺されてしまう。\r ケイツは、ギャンズのかつての仲間であり現在は服役中のレジー・ハモンドというチンピラから手掛かりを引き出そうとする。「ギャンズを捕まえるために自分を刑務所から出して協力させろ」と要求するハモンドに対して、48時間の期限付き仮出所を取り付けたケイツ。ハモンドは仮出所できた解放感からか、女を口説くなど軽薄な行動をするが、その度にケイツを苛立たせる。",
+                        "runtime": 0,
+                        "tagline": "",
+                        "title": "48時間"
+                    }
+                },
+                {
+                    "iso_3166_1": "SE",
+                    "iso_639_1": "sv",
+                    "name": "svenska",
+                    "english_name": "Swedish",
+                    "data": {
+                        "homepage": "",
+                        "overview": "En mördare rymmer från fängelset efter att ha skjutit ner två vakter. Med hjälp av sina lika hänsynslösa kumpaner letar han nu efter bytet från deras senaste rån. Stans tuffaste snut tar upp jakten på mördarna. Han får loss San Franciscos fräckaste skojare Reggie från kåken i 48 timmar, eftersom Reggie vet var pengarna finns. Tillsammans vänder det udda paret upp och ner på stan under den vilda jakten…",
+                        "runtime": 97,
+                        "tagline": "",
+                        "title": "48 timmar"
+                    }
+                },
+                {
+                    "iso_3166_1": "GR",
+                    "iso_639_1": "el",
+                    "name": "ελληνικά",
+                    "english_name": "Greek",
+                    "data": {
+                        "homepage": "",
+                        "overview": "Ο Τζακ Κέιτς είναι ένας ιδιόρρυθμος, αλκοολικός αλλά και σκληρός αστυνομικός. Μαζί με δύο συνεργάτες του πηγαίνουν σε ξενοδοχείο να τσεκάρουν για δύο δραπέτες. Στο μακελειό που θα ακολουθήσει, οι δύο επικίνδυνοι άντρες σκοτώνουν τους συνεργάτες του Τζακ κι αυτός αποζητά εκδίκηση. Για να μπορέσει να τους βρει, πηγαίνει στην φυλακή και συναντά έναν πρώην φίλο τους, τον Ρέτζι. Αποφασίζει να τον αφήσει ελεύθερο για 48 ώρες, με την προϋπόθεση πως θα τον βοηθήσει. Η κατάσταση περιπλέκεται ακόμα περισσότερο, όταν μια λεία ληστείας κάνει τους δύο κακοποιούς να απαγάγουν την φίλη ενός παλιού συνεργάτη τους. Τώρα, ο Τζακ κι ο Ρέτζι πρέπει να εξαντλήσουν τις 48 ώρες και να τελειώσουν αυτή την αποστολή ζωής και θανάτου.",
+                        "runtime": 96,
+                        "tagline": "Τα παιδιά επέστρεψαν στην πόλη.",
+                        "title": "48 Ώρες"
+                    }
+                },
+                {
+                    "iso_3166_1": "CZ",
+                    "iso_639_1": "cs",
+                    "name": "Český",
+                    "english_name": "Czech",
+                    "data": {
+                        "homepage": "",
+                        "overview": "Slavný thriller s prvky komedie o drsném poldovi a ukecaném vězni, kteří společně pátrají po uprchlém vrahovi. Z vězení utekl nebezpečný trestanec. Odzbrojil detektiva Jacka Catese a jeho pistolí zastřelil dalšího policistu. Jack Cates je však tvrdý polda, který je odhodlán pomstít smrt kolegy za každou cenu. Aby se dostal vrahovi na stopu, rozhodne se \"vypůjčit\" si z vězení na osmačtyřicet hodin vězně Reggio Hammonda, který by mu mohl pomoci. Vrah se totiž chystá vybrat skrýš s lupem, o který ho Hammond připravil. Přestože jsou zájmy obou mužů zcela odlišné, cíl mají oba stejný, dopadnout uprchlíka. Není to však snadné. Už jen proto, že každý z dvojice pronásledovatelů je zcela odlišný. Jack je málomluvný drsný polda, Reggie lehkomyslný mluvka a hazardní hráč. A tak není divu, že musí přes vzájemné osobní antipatie během pronásledování plného honiček, přestřelek a dalších dramatických situací, nejprve naučit respektovat jeden druhého.",
+                        "runtime": 96,
+                        "tagline": "",
+                        "title": "48 hodin"
+                    }
+                },
+                {
+                    "iso_3166_1": "RO",
+                    "iso_639_1": "ro",
+                    "name": "Română",
+                    "english_name": "Romanian",
+                    "data": {
+                        "homepage": "",
+                        "overview": "",
+                        "runtime": 0,
+                        "tagline": "",
+                        "title": "48 de ore"
+                    }
+                },
+                {
+                    "iso_3166_1": "PL",
+                    "iso_639_1": "pl",
+                    "name": "Polski",
+                    "english_name": "Polish",
+                    "data": {
+                        "homepage": "",
+                        "overview": "Detektyw Jack Cates i zwolniony warunkowo więzień Reggie Hammond mają dwie doby na wytropienie i unieszkodliwienie pary bandytów, którzy zbiegli z aresztu i grasują w chińskiej dzielnicy San Francisco. Przestępca Albert Ganz i jego indiański partner Billy Bear muszą przeczekać weekend. Chcą zdobyć pół miliona dolarów. Pochodzące z napadu pieniądze ponownie trafiły do banku - można je odebrać dopiero w poniedziałek rano.",
+                        "runtime": 96,
+                        "tagline": "Gdy twardy policjant ma cool skazańca jako partnera i 48 godzin, aby złapać mordercę, to wiele zabawnych rzeczy może się zdarzyć w... 48 godzin.",
+                        "title": "48 godzin"
+                    }
+                },
+                {
+                    "iso_3166_1": "IL",
+                    "iso_639_1": "he",
+                    "name": "עִבְרִית",
+                    "english_name": "Hebrew",
+                    "data": {
+                        "homepage": "",
+                        "overview": "שוטר קשוח מצטרף שלא ברצונו לפושע חכמולוג שמשוחרר על תנאי זמנית תחת השגחתו, על מנת לאתר רוצח.",
+                        "runtime": 0,
+                        "tagline": "",
+                        "title": "48 שעות"
+                    }
+                },
+                {
+                    "iso_3166_1": "KR",
+                    "iso_639_1": "ko",
+                    "name": "한국어/조선말",
+                    "english_name": "Korean",
+                    "data": {
+                        "homepage": "",
+                        "overview": "한 대의 픽업 트럭이 노역 중인 죄수들에게 다가와 죄수와 위장 싸움을 벌여 감시원들을 사살후 탈옥시킨다. 강력사건 전담 형사 잭(Jack Cates : 닉 놀테 분)은 형사들을 살해하고 달아난 일당을 잡기 위해 옛날 탈옥범 일당과 함께 일을 했던 레지 해먼드(Reggie Hammond : 에디 머피 분)를 48시간 동안 가석방시켜 그들을 쫓는다. 샐리(Sally : 데니스 크로비 분)라는 여인을 인질로 잡은 탈옥범을 발견한 잭이 쏘려고 하자 깽으로 오인받아 경찰에 잡히고 탈옥범은 도주한다. 48시간이 다 되어 교도소로 가야하는 레기를 위해 술을 사로 가다가 버려진 버스를 보고 탈옥범이 숨어있는 곳을 알아낸다. 그들과 숨막히는 추격전이 벌어진 후,탈옥범들은 잭과 레기의 총에 맞아 숨을 거두고 남은 복역기간 6개월을 채우러 교도소로 돌아가는 레기는 새 사람이 되어 정직하게 살기를 맹세하고 애인 신디의 전송을 받는다.",
+                        "runtime": 0,
+                        "tagline": "",
+                        "title": "48시간"
+                    }
+                },
+                {
+                    "iso_3166_1": "CN",
+                    "iso_639_1": "zh",
+                    "name": "普通话",
+                    "english_name": "Mandarin",
+                    "data": {
+                        "homepage": "",
+                        "overview": "　　杰克凯斯为三藩市一名资深警探，从21岁加入警界以来一直未能有所表现。雷吉汉蒙德为黑人区一名惯犯，从15岁起开始犯案累累。巧的是两人都想力图改变现况，而更巧的是两人竟然在同时间不期而遇，因此引发了一场争斗。  　　重刑犯艾伯特·刚茨在他的老搭档比利·拜尔的帮助下成功越狱，他们立即杀死了自己的同伙亨利·王，用假名字住进了三藩市的瓦尔登旅馆。年轻干探杰克·盖茨（Nick Nolte饰）郁不得志，酗酒成性。此番受命与同事VanZant 和Algren入住瓦尔登旅馆，调查名叫G. P. Polson的人，不想VanZant 和Algren被艾伯特所害。杰克欲为同事报仇，劝服上司Haden让他独立办案。杰克到监狱探视艾伯特从前的搭档雷吉·汉蒙德（Eddie Murphy饰），以减刑为由，希望雷吉帮助他抓捕艾伯特和比利，雷吉勉强答应，但杰克只能将其带出监狱48小时，更糟的是二人之间发生了争执并在垃圾填埋场大打出手。原来，雷吉在垃圾场停有一车，车上有他入狱前存的500000美元。现在，艾伯特绑架了知道车的位置的同伙路德的女友，逼路德将车找出。雷吉得知此事，为赶在返回监狱前保住那笔钱，不得不与杰克捐弃前嫌，协力追捕艾伯特……",
+                        "runtime": 96,
+                        "tagline": "48小时",
+                        "title": "48小时"
+                    }
+                },
+                {
+                    "iso_3166_1": "BR",
+                    "iso_639_1": "pt",
+                    "name": "Português",
+                    "english_name": "Portuguese",
+                    "data": {
+                        "homepage": "",
+                        "overview": "Nolte é um detetive grosseiro que está em busca de dois assassinos de policiais. Ele precisa da ajuda de Murphy, um malandro que está cumprindo pena após roubar meio milhão de dólares.",
+                        "runtime": 97,
+                        "tagline": "Eles não se suportavam. De repente se encontraram no mesmo lado da lei.",
+                        "title": "48 Horas"
+                    }
+                },
+                {
+                    "iso_3166_1": "TW",
+                    "iso_639_1": "zh",
+                    "name": "普通话",
+                    "english_name": "Mandarin",
+                    "data": {
+                        "homepage": "",
+                        "overview": "囚犯雷吉哈蒙（艾迪墨菲）和傑克凱茲刑警（尼克諾特）組成了看似不可能的  拍檔，因為凱斯必須帶哈蒙出獄，協助他逮捕他脫逃的同黨。兩人對彼此又愛又恨，過程中兩人衝突不斷，敵人也不少。本片緊湊刺激，且爆笑十足。",
+                        "runtime": 96,
+                        "tagline": "",
+                        "title": "48小時"
+                    }
+                },
+                {
+                    "iso_3166_1": "MX",
+                    "iso_639_1": "es",
+                    "name": "Español",
+                    "english_name": "Spanish",
+                    "data": {
+                        "homepage": "",
+                        "overview": "Cuando un par de asesinos sin escrúpulos consigue huir de prisión, dejando tras de sí un horrible reguero de crímenes, al malhumorado detective Jack Cates no le queda otra opción que sacar al timador Reggie Hammond de la penitenciaría para que le ayude a encontrar a los criminales. Sin embargo sólo dispondrán de 48 horas antes de que Hammond deba regresar a la cárcel.",
+                        "runtime": 0,
+                        "tagline": "Un policía. Un timador. Sin piedad.",
+                        "title": "48 horas"
+                    }
+                },
+                {
+                    "iso_3166_1": "UA",
+                    "iso_639_1": "uk",
+                    "name": "Український",
+                    "english_name": "Ukrainian",
+                    "data": {
+                        "homepage": "",
+                        "overview": "Джек Кейтс розшукує двох злочинців, які вбили поліцейського. Але він не може впоратися із завданням самотужки, єдиний хто може йому допомогти в цій справі — Реджі Хаммонд. Цей Хаммонд сидить у в'язниці за шахрайство, він був близько знайомий із розшукуваними. Вимушені партнери, насилу знаходять спільну мову, та й мета в них різна: перший жадає помститися негідникам, а другий спить і бачить, як отримати свої грошики.",
+                        "runtime": 0,
+                        "tagline": "Один коп. Один шахрай. Ніякої пощади.",
+                        "title": "48 годин"
+                    }
+                },
+                {
+                    "iso_3166_1": "SK",
+                    "iso_639_1": "sk",
+                    "name": "Slovenčina",
+                    "english_name": "Slovak",
+                    "data": {
+                        "homepage": "",
+                        "overview": "Z väzenia utiekol nebezpečný trestanec. Odzbrojil detektíva Jacka Catesa a jeho pištoľou zastrelil ďalšieho policajta. Ale Jack Cates je tvrdý policajt, ktorý je odhodlaný pomstiť smrť kolegu za každú cenu. Aby sa dostal vrahovi na stopu, rozhodne sa „požičať“ si z väzenia na štyridsaťosem hodín väzňa menom Reggie Hammond, ktorý by mu mohol pomôcť. Vrah sa totiž chystá vybrať skrýšu s lupom, o ktorý ho Hammond pripravil. Napriek tomu, že záujmy obidvoch mužov sú úplne odlišné, cieľ majú obidvaja rovnaký, chytiť utečenca\t. Ale nie je to vôbec jednoduché. Už iba preto, že každý z dvojice prenasledovateľov je celkom odlišný. Jack je málovravný drsný policajt, Reggie je ľahkomyseľný táraj a hazardný hráč. A preto nie je divu, že napriek vzájomnej osobnej antipatii v priebehu prenasledovaní plných naháňačiek, prestreliek a ďalších dramatických situácií, sa musia najskôr naučiť rešpektovať jeden druhého...",
+                        "runtime": 96,
+                        "tagline": "",
+                        "title": "48 hodín"
+                    }
+                },
+                {
+                    "iso_3166_1": "LT",
+                    "iso_639_1": "lt",
+                    "name": "Lietuvių",
+                    "english_name": "Lithuanian",
+                    "data": {
+                        "homepage": "",
+                        "overview": "Griežtas policininkas persekioja kolegą nužudžiusius nusikaltėlius. Jam būtinai turi padėti sumanus lengvabūdis, apgavikas, atlikęs bausmę už banko apiplėšimą ir paslėpęs pavogtą pusę milijono. Jie sunkiai randa bendrą kalbą, o ir tikslai jų skirtingi. Policininkas nori atkeršyti, o apgavikas svajoja atgauti pinigus…",
+                        "runtime": 0,
+                        "tagline": "",
+                        "title": "48 valandos"
+                    }
+                },
+                {
+                    "iso_3166_1": "FI",
+                    "iso_639_1": "fi",
+                    "name": "suomi",
+                    "english_name": "Finnish",
+                    "data": {
+                        "homepage": "",
+                        "overview": "Reggie Hammond on ehdonalaiseen päästetty rikollinen, joka usutetaan jäljittämään kylmäveristä murhaajaa yhdessä kovanaamaisen poliisin Jack Catesin kanssa. Kaksikon kemia ei kerta kaikkiaan toimi, mutta miesten on pakko sietää toisiaan jutun selvittämiseksi.",
+                        "runtime": 0,
+                        "tagline": "",
+                        "title": "48 tuntia"
+                    }
+                },
+                {
+                    "iso_3166_1": "SI",
+                    "iso_639_1": "sl",
+                    "name": "Slovenščina",
+                    "english_name": "Slovenian",
+                    "data": {
+                        "homepage": "",
+                        "overview": "",
+                        "runtime": 0,
+                        "tagline": "",
+                        "title": "48 ur"
+                    }
+                },
+                {
+                    "iso_3166_1": "HR",
+                    "iso_639_1": "hr",
+                    "name": "Hrvatski",
+                    "english_name": "Croatian",
+                    "data": {
+                        "homepage": "",
+                        "overview": "Jack Cates (Nick Nolte) je policajac koji voli raditi sam i ne drži se pravila policijske struke. Kada susretne dvojicu kolega, koji odlaze obaviti rutinsko uhićenje sitnih kriminalca u hotel, Jack im se pridruži. Policajci pokucaju na vrata, a kriminalci otvore vatru i Jack se nađe licem u lice s jednim od njih. Uperi pištolj u njega, no drugi već drži na nišanu Jackovog kolegu pa Jack baca svoj pištolj u znak predaje. No policajac ipak pogine, a u postaji kolege misle da se Jack ponio kukavički. Jack saznaje da to nisu bili obični sitni kriminalci već osuđeni pljačkaš Albert Ganz (James Remear) i njegov kolega Billy Bear (Sonny Landham). Pri izlasku iz zatvora, Albert Ganz redom ubija svoje bivše kolege, a jedan od bivših suradnika je i Reggie Hammond (Eddie Murphy), koji se još uvijek nalazi u zatvoru. Jack odlazi u zatvor i traži od Reggieja suradnju, no on to najprije odbija. Iskusni policajac je uporan i izbavlja ga iz zatvora na 48 sati.",
+                        "runtime": 0,
+                        "tagline": "",
+                        "title": "48 sati"
+                    }
+                },
+                {
+                    "iso_3166_1": "ES",
+                    "iso_639_1": "ca",
+                    "name": "Català",
+                    "english_name": "Catalan",
+                    "data": {
+                        "homepage": "",
+                        "overview": "Quan un parell d'assassins sense escrúpols aconsegueix fugir de la presó, deixant darrere seu una horrible reguera de crims, al malhumorat detectiu Jack Cates no li queda cap altra opció que treure l'estafador Reggie Hammond de la penitenciaria perquè l'ajudi a trobar els criminals . Tot i això només disposaran de 48 hores abans que Hammond hagi de tornar a la presó.",
+                        "runtime": 0,
+                        "tagline": "Quan un policia \"dur\" i un presidiari \"tranquil\" només disposen de 48 hores per aturar un criminal, poden passar moltes coses...",
+                        "title": "Límit: 48 hores"
+                    }
+                },
+                {
+                    "iso_3166_1": "CA",
+                    "iso_639_1": "fr",
+                    "name": "Français",
+                    "english_name": "French",
+                    "data": {
+                        "homepage": "",
+                        "overview": "Deux meurtriers sont pourchassés par la police, alors qu’ils recherchent le butin d’un casse commis par Reggie Hammond, un de leurs anciens complices actuellement emprisonné. Pour les retrouver, l’inspecteur de police Jack Cates a besoin de l’aide de Reggie. Il va le voir en prison pour solliciter sa collaboration mais Hammond négocie son aide contre une permission de sortie. Jack va donc faire en sorte que Reggie soit en liberté surveillée pendant 48 heures, durant lesquelles il va tenter de l’aider à retrouver ses anciens complices...",
+                        "runtime": 96,
+                        "tagline": "Un flic. Un taulard. Pas de pitié.",
+                        "title": "48 heures"
+                    }
+                },
+                {
+                    "iso_3166_1": "NO",
+                    "iso_639_1": "no",
+                    "name": "Norsk",
+                    "english_name": "Norwegian",
+                    "data": {
+                        "homepage": "",
+                        "overview": "Den hardbarkede politimannen Cates er på jakt etter to brutale politimordere. Han trenger hjelp av den frekke Reggie, som sitter inne for et storslått ran. Cates klarer å få Reggie løslatt i 48 timer og nå må de jobbe som partnere. Det blir en kamp mot klokka, og gutta oppdager at de har én ting til felles: Begge kunne ha drept for å finne skurkene... hvis de ikke dreper hverandre først!",
+                        "runtime": 0,
+                        "tagline": "",
+                        "title": "48 timer"
+                    }
+                },
+                {
+                    "iso_3166_1": "VN",
+                    "iso_639_1": "vi",
+                    "name": "Tiếng Việt",
+                    "english_name": "Vietnamese",
+                    "data": {
+                        "homepage": "",
+                        "overview": "Một cảnh sát cứng đầu ở San Francisco trở thành nghi can chính trong một vụ nổ súng buộc phải tái hợp với một kẻ từng là tội phạm để rửa sạch thanh danh của mình.",
+                        "runtime": 0,
+                        "tagline": "",
+                        "title": "48 Giờ"
+                    }
+                },
+                {
+                    "iso_3166_1": "TH",
+                    "iso_639_1": "th",
+                    "name": "ภาษาไทย",
+                    "english_name": "Thai",
+                    "data": {
+                        "homepage": "",
+                        "overview": "แจ๊ค เคทส์ นายตำรวจผู้ต้องรีบตามสืบคดีโดยมี เรจจี้ แฮมมอนด์ นักโทษผู้ซึ่งเป็นพยานคนเดียวในคดีนี้ มีคนมาตามล่าพวกเขา ก็ต้องมีการหนีตายและรับมือกับพวกมัน",
+                        "runtime": 0,
+                        "tagline": "",
+                        "title": "จับตาย 48 ชั่วโมง"
+                    }
+                }
+            ]
+        },
+        "keywords": {
+            "keywords": [
+                {
+                    "id": 378,
+                    "name": "prison"
+                },
+                {
+                    "id": 582,
+                    "name": "san francisco, california"
+                },
+                {
+                    "id": 4728,
+                    "name": "knife"
+                },
+                {
+                    "id": 9104,
+                    "name": "partner"
+                },
+                {
+                    "id": 9748,
+                    "name": "revenge"
+                },
+                {
+                    "id": 15234,
+                    "name": "convict"
+                },
+                {
+                    "id": 167316,
+                    "name": "buddy cop"
+                },
+                {
+                    "id": 168590,
+                    "name": "tough cop"
+                },
+                {
+                    "id": 168593,
+                    "name": "fake fight"
+                },
+                {
+                    "id": 226325,
+                    "name": "dysfunctional relationship"
+                },
+                {
+                    "id": 309974,
+                    "name": "absurd"
+                },
+                {
+                    "id": 325765,
+                    "name": "amused"
+                },
+                {
+                    "id": 338545,
+                    "name": "african american lead"
+                }
+            ]
+        },
+        "release_dates": {
+            "results": [
+                {
+                    "iso_3166_1": "AU",
+                    "release_dates": [
+                        {
+                            "certification": "R18+",
+                            "descriptors": [],
+                            "iso_639_1": "",
+                            "note": "",
+                            "release_date": "1983-05-06T00:00:00.000Z",
+                            "type": 3
+                        }
+                    ]
+                },
+                {
+                    "iso_3166_1": "BR",
+                    "release_dates": [
+                        {
+                            "certification": "14",
+                            "descriptors": [],
+                            "iso_639_1": "",
+                            "note": "",
+                            "release_date": "1983-02-17T00:00:00.000Z",
+                            "type": 3
+                        }
+                    ]
+                },
+                {
+                    "iso_3166_1": "DE",
+                    "release_dates": [
+                        {
+                            "certification": "16",
+                            "descriptors": [],
+                            "iso_639_1": "",
+                            "note": "",
+                            "release_date": "1982-12-07T00:00:00.000Z",
+                            "type": 3
+                        }
+                    ]
+                },
+                {
+                    "iso_3166_1": "DK",
+                    "release_dates": [
+                        {
+                            "certification": "15",
+                            "descriptors": [],
+                            "iso_639_1": "",
+                            "note": "",
+                            "release_date": "1983-04-15T00:00:00.000Z",
+                            "type": 3
+                        }
+                    ]
+                },
+                {
+                    "iso_3166_1": "ES",
+                    "release_dates": [
+                        {
+                            "certification": "16",
+                            "descriptors": [],
+                            "iso_639_1": "es",
+                            "note": "",
+                            "release_date": "1983-04-13T00:00:00.000Z",
+                            "type": 3
+                        }
+                    ]
+                },
+                {
+                    "iso_3166_1": "FR",
+                    "release_dates": [
+                        {
+                            "certification": "TP",
+                            "descriptors": [],
+                            "iso_639_1": "",
+                            "note": "",
+                            "release_date": "1983-04-27T00:00:00.000Z",
+                            "type": 3
+                        },
+                        {
+                            "certification": "TP",
+                            "descriptors": [],
+                            "iso_639_1": "",
+                            "note": "Prime Video",
+                            "release_date": "2021-06-01T00:00:00.000Z",
+                            "type": 4
+                        },
+                        {
+                            "certification": "",
+                            "descriptors": [],
+                            "iso_639_1": "",
+                            "note": "VOD",
+                            "release_date": "2020-04-28T00:00:00.000Z",
+                            "type": 4
+                        },
+                        {
+                            "certification": "TP",
+                            "descriptors": [],
+                            "iso_639_1": "",
+                            "note": "Blu-Ray",
+                            "release_date": "2021-07-07T00:00:00.000Z",
+                            "type": 5
+                        },
+                        {
+                            "certification": "TP",
+                            "descriptors": [],
+                            "iso_639_1": "",
+                            "note": "DVD",
+                            "release_date": "2000-08-24T00:00:00.000Z",
+                            "type": 5
+                        },
+                        {
+                            "certification": "",
+                            "descriptors": [],
+                            "iso_639_1": "",
+                            "note": "VHS",
+                            "release_date": "1990-08-21T00:00:00.000Z",
+                            "type": 5
+                        }
+                    ]
+                },
+                {
+                    "iso_3166_1": "GB",
+                    "release_dates": [
+                        {
+                            "certification": "18",
+                            "descriptors": [],
+                            "iso_639_1": "",
+                            "note": "",
+                            "release_date": "1982-12-14T00:00:00.000Z",
+                            "type": 3
+                        }
+                    ]
+                },
+                {
+                    "iso_3166_1": "HU",
+                    "release_dates": [
+                        {
+                            "certification": "18",
+                            "descriptors": [],
+                            "iso_639_1": "",
+                            "note": "",
+                            "release_date": "1987-09-03T00:00:00.000Z",
+                            "type": 3
+                        }
+                    ]
+                },
+                {
+                    "iso_3166_1": "IE",
+                    "release_dates": [
+                        {
+                            "certification": "15",
+                            "descriptors": [],
+                            "iso_639_1": "",
+                            "note": "",
+                            "release_date": "1983-06-24T00:00:00.000Z",
+                            "type": 3
+                        }
+                    ]
+                },
+                {
+                    "iso_3166_1": "JP",
+                    "release_dates": [
+                        {
+                            "certification": "",
+                            "descriptors": [],
+                            "iso_639_1": "",
+                            "note": "",
+                            "release_date": "1983-10-29T00:00:00.000Z",
+                            "type": 3
+                        }
+                    ]
+                },
+                {
+                    "iso_3166_1": "KR",
+                    "release_dates": [
+                        {
+                            "certification": "18",
+                            "descriptors": [],
+                            "iso_639_1": "",
+                            "note": "",
+                            "release_date": "1984-01-01T00:00:00.000Z",
+                            "type": 3
+                        }
+                    ]
+                },
+                {
+                    "iso_3166_1": "NL",
+                    "release_dates": [
+                        {
+                            "certification": "12",
+                            "descriptors": [],
+                            "iso_639_1": "",
+                            "note": "",
+                            "release_date": "1983-05-11T00:00:00.000Z",
+                            "type": 3
+                        },
+                        {
+                            "certification": "12",
+                            "descriptors": [],
+                            "iso_639_1": "",
+                            "note": "Blu ray",
+                            "release_date": "2013-11-20T00:00:00.000Z",
+                            "type": 5
+                        },
+                        {
+                            "certification": "12",
+                            "descriptors": [],
+                            "iso_639_1": "",
+                            "note": "DVD",
+                            "release_date": "2001-01-14T00:00:00.000Z",
+                            "type": 5
+                        },
+                        {
+                            "certification": "12",
+                            "descriptors": [],
+                            "iso_639_1": "",
+                            "note": "V8",
+                            "release_date": "2002-03-04T00:00:00.000Z",
+                            "type": 6
+                        }
+                    ]
+                },
+                {
+                    "iso_3166_1": "SE",
+                    "release_dates": [
+                        {
+                            "certification": "15",
+                            "descriptors": [],
+                            "iso_639_1": "",
+                            "note": "",
+                            "release_date": "1983-03-04T00:00:00.000Z",
+                            "type": 3
+                        },
+                        {
+                            "certification": "15",
+                            "descriptors": [],
+                            "iso_639_1": "",
+                            "note": "DVD release",
+                            "release_date": "2000-09-06T00:00:00.000Z",
+                            "type": 5
+                        }
+                    ]
+                },
+                {
+                    "iso_3166_1": "US",
+                    "release_dates": [
+                        {
+                            "certification": "R",
+                            "descriptors": [],
+                            "iso_639_1": "",
+                            "note": "",
+                            "release_date": "1982-12-07T00:00:00.000Z",
+                            "type": 3
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "_dict_key": false,
+    "_obj_list": [],
+    "_list_only": false,
+    "adult": false,
+    "backdrop_path": "/xQTSGz5dvIAYFssPWhD160AcR7Z.jpg",
+    "budget": 12000000,
+    "homepage": "",
+    "id": 150,
+    "imdb_id": "tt0083511",
+    "original_language": "en",
+    "original_title": "48 Hrs.",
+    "overview": "A hard-nosed cop reluctantly teams up with a wise-cracking criminal temporarily paroled to him, in order to track down a killer.",
+    "popularity": 20.642,
+    "poster_path": "/rvvjXHzEDBIvIVDBHNOwHS7hVPu.jpg",
+    "release_date": "1982-12-07",
+    "revenue": 78868508,
+    "runtime": 96,
+    "status": "Released",
+    "tagline": "One cop. One con. No mercy.",
+    "title": "48 Hrs.",
+    "video": false,
+    "vote_average": 6.7,
+    "vote_count": 1463
+}
