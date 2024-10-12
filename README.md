@@ -1,5 +1,5 @@
 # Bernardo Gostenski Rodrigues
-<img src="./foto.jpg" alt="Bernardo Gostenski Rodrigues">
+<img src="https://scontent-gru1-2.cdninstagram.com/v/t51.2885-19/269694572_116462690878791_1820120605537896878_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-gru1-2.cdninstagram.com&_nc_cat=103&_nc_ohc=5mRhiC3r7OsQ7kNvgFUSy2h&_nc_gid=d395ce03ad1144edb2f603572e752150&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AYDb4_lz_bvry4KWhXqccfAMqgqLhQusQeLOibyMAw3xjg&oe=6710CAE2&_nc_sid=7a9f4b" alt="Bernardo Gostenski Rodrigues">
 
 ## 🚀 Sobre mim
 👨‍🎓 Me chamo Bernardo Gostenski Rodrigues
