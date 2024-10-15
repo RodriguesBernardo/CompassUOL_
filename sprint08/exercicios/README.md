@@ -176,7 +176,8 @@ with open(nomeArquivo,'w') as arquivo:
 
 print(f"o arquivo {nomeArquivo} foi gerado com sucesso!")
 ```
-#### [Resultado](./Geracao%20e%20Massa%20de%20Dados/nomes_aleatorios.txt)
+- Imamgem do arquivo gerado (Foi adicionado no .gitignore pois o arquivo é maior que 100MB)
+<img src='../evidencias/img/ExercicioGeracaoNomes.png'>
 
 # Exercicio TMDB:
 - Realizar a criação de um processo de extração de dados utilizando a API do TMDB
