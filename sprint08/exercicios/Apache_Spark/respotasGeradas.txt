@@ -1,0 +1,60 @@
++----------------+
+|           Nomes|
++----------------+
+|     Joy Bennett|
+| Howard Lazarine|
+|     Albert Leef|
+|         Lois Ly|
+| Jerry Chynoweth|
+|  Mary Dillahunt|
+|  Rosie Lovelady|
+|Flossie Anderson|
+|     Lisa Baxley|
+|    James Barton|
++----------------+
+
++---------------+
+|          Nomes|
++---------------+
+|  Jamie Russell|
+|Howard Lazarine|
+| Herbert Morris|
+| Wilfredo Grant|
+|    Donald Vogt|
+| Ashley Trosper|
+|  George Miller|
+|    Hugo Dayton|
+| Kenneth Winter|
+|Katherine Moore|
++---------------+
+
++--------+
+|count(1)|
++--------+
+| 2272986|
++--------+
+
++---------+------------+----------+
+|     Pais|     Geracao|Quantidade|
++---------+------------+----------+
+|Argentina|Baby Boomers|    233842|
+|Argentina|   Geracao X|    174799|
+|Argentina|   Geracao Z|    186122|
+|Argentina| Millennials|    174725|
+|  Bolívia|Baby Boomers|    233384|
+|  Bolívia|   Geracao X|    174843|
+|  Bolívia|   Geracao Z|    186300|
+|  Bolívia| Millennials|    174523|
+|   Brasil|Baby Boomers|    234244|
+|   Brasil|   Geracao X|    175063|
+|   Brasil|   Geracao Z|    186193|
+|   Brasil| Millennials|    174114|
+|    Chile|Baby Boomers|    233200|
+|    Chile|   Geracao X|    174254|
+|    Chile|   Geracao Z|    186195|
+|    Chile| Millennials|    174886|
+| Colômbia|Baby Boomers|    233939|
+| Colômbia|   Geracao X|    173930|
+| Colômbia|   Geracao Z|    185922|
+| Colômbia| Millennials|    174337|
++---------+------------+----------+
