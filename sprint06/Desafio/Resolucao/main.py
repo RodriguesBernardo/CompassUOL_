@@ -9,8 +9,8 @@ session = boto3.Session(profile_name='982081093508_AdministratorAccess')
 s3 = session.client('s3')
 
 
-nomeBucket = 'sprint-06'            # Variavel informando o nome do bucket
-caminhoRawZone = 'Raw/Local/CSV/'   # Variavel define a pasta onde os dados brutos serao armazenados
+nomeBucket = 'sprint07'            # Variavel informando o nome do bucket
+caminhoRawZone = 'raw/Local/CSV/'   # Variavel define a pasta onde os dados brutos serao armazenados
 caminhoCSV_movies = 'movies.csv'    # Variavel informa o caminho do arquivo 
 caminhoCSV_series = 'series.csv'    # Variavel informa o caminho do arquivo 
 delimitador = '|'                   # Variavel informa o delimitador do arquivo CSV
