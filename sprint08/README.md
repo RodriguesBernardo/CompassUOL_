@@ -1,7 +1,8 @@
 # **Sprint 08**
 
 # **Desafio**
-
+1. Objetivo: 
+    - Passar os arquivos da camada RAW para camada Trusted, fazendo uma limpeza nos arquivos da maneira que fique mais adequado para responder as perguntas criadas
 - [Desafio](Desafio/README.md)
 
 ## **Exercicios**

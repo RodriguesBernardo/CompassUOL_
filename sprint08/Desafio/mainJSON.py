@@ -2,6 +2,7 @@ import sys
 from pyspark.context import SparkContext
 from awsglue.context import GlueContext
 from pyspark.sql.functions import array_contains, col, when, explode, trim, lit
+from datetime import datetime
 
 sc = SparkContext()
 glueContext = GlueContext(sc)
