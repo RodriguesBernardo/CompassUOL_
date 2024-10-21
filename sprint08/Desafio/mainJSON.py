@@ -7,8 +7,13 @@ sc = SparkContext()
 glueContext = GlueContext(sc)
 spark = glueContext.spark_session
 
+data_atual = datetime.now()
+ano = data_atual.strftime("%Y")
+mes = data_atual.strftime("%m")
+dia = data_atual.strftime("%d")
+
 caminhoArquivoJSON = "s3://sprint07/raw/TMDB/JSON/2024/10/18/movies_2.json"
-caminhoDestino = "s3://sprint07/trusted/Movies_TMDb/"
+caminhoDestino = f"s3://sprint07/trusted/Movies_TMDb/{ano}/{mes}/{dia}/"
 
 json_df = spark.read.json(caminhoArquivoJSON)
 
