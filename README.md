@@ -26,7 +26,7 @@
 - **Emprego Anterior:** Técnico em Montagem e Manutenção de Computadores na IdealTech Soluções em Informática.
 
 ## 🔗 Links
-[![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bernardo-gostenski-rodrigues-1a3948258/)
+[![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bernardo-gostenski-rodrigues/)
 [![GitHub](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/RodriguesBernardo)
 
 ## Sprints
