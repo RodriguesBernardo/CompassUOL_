@@ -1,7 +1,7 @@
 import sys
 from pyspark.context import SparkContext
 from awsglue.context import GlueContext
-from pyspark.sql.functions import array_contains, col, when, explode, trim, lit
+from pyspark.sql.functions import array_contains, col, when, explode, lit
 from datetime import datetime
 
 sc = SparkContext()
@@ -21,6 +21,8 @@ json_df = spark.read.json(caminhoArquivoJSON)
 json_exploded = json_df.withColumn("genero", explode(col("genero")))
 
 json_drama_romance = json_exploded.filter((col("genero") == "Drama") | (col("genero") == "Romance"))
+
+json_drama_romance = json_drama_romance.dropDuplicates(["tituloprincipal"])
 
 json_drama_romance = json_drama_romance.withColumn(
     "anoLancamento",
