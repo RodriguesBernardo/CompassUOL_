@@ -86,6 +86,36 @@ df_generations = spark.sql("""
 df_generations.show()
 ```
 - Após a sua execução, podemos ver como resultado:
+
+1. 10 nomes de pessoas nascidas a partir do ano 2000
+
+```
++-----------------+
+|            Nomes|
++-----------------+
+|   Edward Kistler|
+|     Charles Hill|
+|  Jerry Chynoweth|
+|      Donald Vogt|
+|    Milton Dillon|
+|    Lynne Dustman|
+|Marguerite Rankin|
+|   Roger Guenther|
+|      John Snipes|
+|       Lori Allee|
++-----------------+
+```
+2. Conta o numero de pessoas da geração Millennial
+
+```
++--------+
+|count(1)|
++--------+
+| 2272300|
++--------+
+```
+3. Classifica a quantidade de pessoas com base no ano de nascimento
+
 ```
 +---------+------------+----------+
 |     Pais|     Geracao|Quantidade|
@@ -176,7 +206,7 @@ with open(nomeArquivo,'w') as arquivo:
 
 print(f"o arquivo {nomeArquivo} foi gerado com sucesso!")
 ```
-- Imamgem do arquivo gerado (Foi adicionado no .gitignore pois o arquivo é maior que 100MB)
+- Imamgem do arquivo gerado *(Foi adicionado no .gitignore pois o arquivo é maior que 100MB)*
 <img src='../evidencias/img/ExercicioGeracaoNomes.png'>
 
 # Exercicio TMDB:
@@ -186,8 +216,13 @@ print(f"o arquivo {nomeArquivo} foi gerado com sucesso!")
 import requests
 import pandas as pd 
 from IPython.display import display
+from dotenv import load_dotenv
+import os
 
-api_key = '03129dc562c7c51794b4fd34d2ca274b'
+
+load_dotenv()
+
+api_key = os.getenv('API_KEY')
 
 url = f'https://api.themoviedb.org/3/movie/top_rated?api_key={api_key}&language=pt-BR'
 
