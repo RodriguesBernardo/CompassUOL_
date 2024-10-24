@@ -19,17 +19,17 @@ dia = data_atual.strftime("%d")
 caminhoArquivoSeries = "s3://sprint07/raw/Local/CSV/Movies/16/10/2024/movies.csv"
 caminhoDestinoSeries = f"s3://sprint07/trusted/Movies-CSV/{ano}/{mes}/{dia}/"
 # Le o arquivo CSV do filmes usando Spark, definindo cabeçalho e demais informações
-series_df = spark.read.option("delimiter", "|").csv(caminhoArquivoSeries, header=True, inferSchema=True)
+filmes_df = spark.read.option("delimiter", "|").csv(caminhoArquivoSeries, header=True, inferSchema=True)
 # Filtra os filmes que sejam do gênero Drama ou Romance 
-series_drama_romance = series_df.filter((col("genero") == "Drama") | (col("genero") == "Romance"))
+filmesDrama_Romance = filmes_df.filter((col("genero") == "Drama") | (col("genero") == "Romance"))
 # Remove as duplicatas na coluna titulopincipal
-series_drama_romance = series_drama_romance.dropDuplicates(["titulopincipal"])
+filmesDrama_Romance = filmesDrama_Romance.dropDuplicates(["titulopincipal"])
 # Substitui valores nulos ou invalidos na colula anoLancamento para Desconhecido
-for coluna in series_drama_romance.columns:
-    series_drama_romance = series_drama_romance.withColumn(
+for coluna in filmesDrama_Romance.columns:
+    filmesDrama_Romance = filmesDrama_Romance.withColumn(
         coluna,
         when(col(coluna).isNull() | (col(coluna) == '') | (col(coluna) == '\\N'), lit('Desconhecido')).otherwise(col(coluna))
     )
 
 # Escreve os dados em formato parquet, particinando por genero e anoLancamento
-series_drama_romance.write.mode("overwrite").partitionBy("genero", "anoLancamento").parquet(caminhoDestinoSeries)
+filmesDrama_Romance.write.mode("overwrite").partitionBy("genero", "anoLancamento").parquet(caminhoDestinoSeries)
