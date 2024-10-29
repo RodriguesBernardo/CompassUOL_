@@ -38,3 +38,4 @@
 6. [Sprint 6](sprint06/README.md)
 7. [Sprint 7](sprint07/README.md)
 8. [Sprint 8](sprint08/README.md)
+8. [Sprint 9](sprint09/README.md)
