@@ -2,7 +2,7 @@
 
 # **Desafio**
 1. Objetivo: 
-    - Refinar os dados da camada *trusted* na nova camada *trusted* usando AWS GLUE e Spark 
+    - Refinar os dados da camada *trusted* na nova camada *refined* usando AWS GLUE e Spark 
 - [Desafio](Desafio/README.md)
 
 ## **Exercicios**
