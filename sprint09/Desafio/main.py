@@ -95,5 +95,5 @@ fatos_filme = dados_combinados \
     .dropDuplicates(["titulo_principal", "anoLancamento", "idDiretor", "idAtor"]) \
     .withColumn("idFatoFilme", monotonically_increasing_id())
 
-# escreve os resultados me formato parquet no caminho informado no inicio do código
+# escreve os resultados em formato parquet no caminho informado no inicio do código
 fatos_filme.write.mode("overwrite").parquet(caminho_refined_fatosfilme)
