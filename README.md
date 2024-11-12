@@ -1,5 +1,5 @@
 # Bernardo Gostenski Rodrigues
-<img src="https://scontent-gru1-2.cdninstagram.com/v/t51.2885-19/269694572_116462690878791_1820120605537896878_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-gru1-2.cdninstagram.com&_nc_cat=103&_nc_ohc=PkHzuJ7xqlsQ7kNvgFwAC1S&_nc_gid=281022579cf9492ea85b45e339889257&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AYAwAVujsr4Q6xsWcZGqVOil1Wv5FNLEVI_GVu-HazKrDw&oe=6726FC22&_nc_sid=7a9f4b" alt="Bernardo Gostenski Rodrigues">
+<img src="https://scontent-gru2-1.cdninstagram.com/v/t51.2885-19/465515724_553396954068031_1856705527360509793_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-gru2-1.cdninstagram.com&_nc_cat=107&_nc_ohc=MEjyyzCUW5sQ7kNvgGUSNAd&_nc_gid=f87fcf507c3d4260ad26fc34092086c4&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AYB8JluuvQIIJssK4hK_3DSXCFLE_Kco9oPUcIeKUeVM5g&oe=67394033&_nc_sid=7a9f4b" alt="Bernardo Gostenski Rodrigues">
 
 ## 🚀 Sobre mim
 👨‍🎓 Bernardo Gostenski Rodrigues
