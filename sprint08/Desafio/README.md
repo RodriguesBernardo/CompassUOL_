@@ -5,7 +5,7 @@
     - Qual a relação entre a duração dos filmes e suas avaliações no TMDB e CSV
     - Quais atores têm o maior número de filmes no gênero? 
     - Quais filmes tiveram o maior número de avaliação em cada ano de lançamento
-    - Quais atores têm o maior número de filmes no gênero Drama e Romance
+    - Quais diretores têm o maior número de filmes no gênero
 
 ## Passo 1
 - Começamos fazendo a criação do script *mainCSV.py*, que tem como objetivo filtrar apenas os genêros *Drama* e *Romance*, limpar os dados duplicados e particionar com base em gênero e ano de lançamento!
