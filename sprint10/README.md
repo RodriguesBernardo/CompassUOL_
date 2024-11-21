@@ -1,7 +1,7 @@
 # **Sprint 10**
 
 # **Desafio**
-
+- Criação de um dashboard no AWS QuickSight, com objetivo de responder as perguntas criadas
 - [Desafio](Desafio/README.md)
 
 ## **Exercicios**

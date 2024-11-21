@@ -1,0 +1,1 @@
+# Nenhum certificado registrado na sprint 10
