@@ -4,4 +4,4 @@
 <img src="../evidencias/img/DiretorGenero.png"> 
 <img src="../evidencias/img/FilmeDuracao.png"> 
 <img src="../evidencias/img/MelhoresFilmesPorAno.png"> 
-<img src="../evidencias/img/CriacaoAtoresGenero.png"> 
+<img src="../evidencias/img/AtoresGenero.png"> 
