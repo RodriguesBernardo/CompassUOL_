@@ -1,6 +1,6 @@
 # **Desafio**
 1. Objetivo: 
-- Responder as perguntas criadas graficamente pelo quicksight:
+- Criar um Dashboard com objetivo de Responder as perguntas criadas:
     - Qual a relação entre a duração dos filmes e suas avaliações ? 
     - Quais atores têm o maior número de filmes no gênero? 
     - Quais filmes tiveram o maior número de avaliação em cada ano de lançamento?
